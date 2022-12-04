@@ -352,7 +352,7 @@ img.img__product--item{
 .button__show__product{
     display: inline;
     background-color: #753422;
-    color:#FFFFFF;
+    color:white;
     padding: 10px 30px;
     cursor: pointer;
     font-size: 20px;
