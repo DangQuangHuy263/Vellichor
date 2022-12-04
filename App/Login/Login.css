@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+}
+/* Header CSS */
+.content{
+    display: flex;
+    width: 100vw;
+    height: 66px;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(191, 115, 115, 0.2), rgba(191, 115, 115, 0.2)), linear-gradient(0deg, rgba(200, 102, 47, 0.45), rgba(200, 102, 47, 0.45)), rgba(0, 0, 0, 0.76);
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+/* navigation bar with icon */
+.icon__navigation{
+    height: 33px;
+    width: 33px;
+    /* background-color: aqua; */
+    margin-right: 30px;
+}
+.navi__icon{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.form__login{
+    display: flex;
+    flex-direction: column;
+}
+
+/* login navigation bar CSS */
+.navigation{
+    display: flex;
+}
+.logo{
+    border-right: 3px solid #000000;
+    padding-left: 32px;
+}
+.logo__img{
+    width: 322px;
+    height: 196px;
+}
+.menubar{
+    display: flex;
+    width: 100vw;
+    border-top: 1px solid #945A4A;
+    border-bottom: 1px solid #945A4A;
+    height: 67px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.menubar div a{
+    color: #753422;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;   
+}
+/* CSS form login */
+.form__login{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.form__login .content__login{
+    color: #753422;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.form__input{
+    width: 601.88px;
+    height: 77.56px;
+    border: 1px solid #753422;
+    color: rgba(117, 52, 34, 0.5);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 20px;
+    margin-bottom: 50px;
+    background: rgba(191, 115, 115, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form__login button{
+    width: 601.88px;
+    height: 62.17px;    
+    background: #753422;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.form__login button:active{
+    opacity: 0.5;
+}
+.form__login div{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #753422;
+    margin-bottom: 40px;
+}
+.method__login{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+.contact{
+    display: flex;
+    width: 181.94px;
+    height: 62.54px;
+    border: 1px solid #753422;
+    border-radius: 5px;
+    background: rgba(191, 115, 115, 0.05);
+    align-items: center;
+    justify-content:center;
+    margin: 50px 15px;
+    cursor: pointer;
+}
+.other{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 110px;
+}
+.other .about{
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(117, 52, 34, 0.5);
+}
+.other .other__login{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #753422;
+}
+/* CSS Footer */
+/* .footer{
+    background: linear-gradient(0deg, rgba(191, 115, 115, 0.2), rgba(191, 115, 115, 0.2)), linear-gradient(0deg, rgba(200, 102, 47, 0.45), rgba(200, 102, 47, 0.45)), rgba(0, 0, 0, 0.76);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    width: 100vw;
+    padding: 0 4%;
+    box-sizing: border-box;
+}
+.footer__top{
+    display: flex;
+    flex-direction: row;
+    border-bottom: thin solid #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 35px;
+   
+}
+.footer__text--parent{
+    display: flex;
+    flex-direction: row;
+}
+.footer__text--child.border{
+    margin-right: 3px;
+    padding-right: 3px;
+    border-right: thin solid #FFFFFF;
+}
+.footer__text--child{
+    margin-right: 3px;
+    padding-right: 3px;
+}
+.footer__contact{
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.footer__text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.contact img{
+    margin-right: 25px;
+    height: 45px;
+    width: 50px;
+}
+.footer__text.upper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+.footer__payment{
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.footer__element{
+    flex-basis: 33%;
+    margin-right: 84px;
+}
+.footer__bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.text__bottom{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}   */

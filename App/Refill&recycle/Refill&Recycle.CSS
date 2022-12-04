@@ -1,0 +1,52 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vw; 
+    color: #000;
+    min-width: 15px;
+    font-size-adjust: inherit;
+}
+
+/* CSS Body */
+.body h1, h2, h3{
+    color: #753422;
+    font-weight: bolder;
+}
+.body h1{
+    text-align: center;
+}
+.body_action{
+    padding: 7%;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.body_action_box{
+   margin: 0%;
+}
+.body_action_box2{
+    display: flex;
+    flex-direction: row;
+    margin: 7%;
+}
+.body_action_box2_img{
+    width: 33%;
+    margin: 3%;
+    text-align: center;
+}
+.body_action_box4{
+    background-color: #D7C0AE;
+}
+.body_action_box4 h3{
+    text-align: center;
+}
+.body_action_box5{
+    width: 100%; 
+    text-align: center;
+}
+.body_action_box5 img{
+    width: 90%;
+}
+

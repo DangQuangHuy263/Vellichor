@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vellichor</title>
+    <link rel="stylesheet" href="./HomePage.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <script src="./HomePage.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <!-- image slider start -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="./MediaHomePage/imagehp1.png" alt="" style="opacity: 0.8;">
+        </div>
+        <div class="mySlides fade">
+            <img src="./MediaHomePage/imagehp2.png" alt="">
+        </div>
+        <div class="mySlides fade">
+            <img src="./MediaHomePage/imagehp3.png" alt="" style="opacity: 0.8;">
+        </div>
+        <div class="mySlides fade">
+            <img src="./MediaHomePage/imagehp4.png" alt="">
+        </div>
+        <div class="navi__dot">
+            <span class="dot"></span> 
+            <span class="dot"></span>
+            <span class="dot"></span> 
+            <span class="dot"></span>
+        </div>
+    </div>
+    <!-- image slider end -->
+    <!-- Header -->
+
+
+    <div class="headerline">
+        <div>Nhập code "WELLCOME" để được GIẢM 20% tổng hóa đơn đến hết ngày 28/12 + FREESHIP cho đơn hàng có giá trị trên 400.000VNĐ</div>
+    </div>
+    <div class="icon__navigation__bar">
+        <div class="navigation__bar">
+
+
+            <!-- Create a search bar --Begin-->
+            <form action="" id="search-box">
+                <input type="text" id="search-text" placeholder="Bạn muốn tìm gì?" required>
+                <button id="search-btn"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg></button>
+            </form>
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg> -->
+            <button onclick="myAccount()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+            </svg></button>
+            <button onclick="myCart()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+            </svg></button>
+            <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg></button>
+        </div>           
+    </div>
+    <div class="menu__navigation">
+        <div class="menu">
+            <div class="menu__ele"><a href="#">ABOUT US</a></div>
+            <div class="dropdown"><a href="../Shop/Shop.html">SHOPPING
+                <div class="dropdown-content">
+                    <a href="../Shop/ShopBst.html">BÁN THEO CHỦ ĐỀ</a>
+                    <a href="../Shop/Shop.html">SẢN PHẨM BÁN CHẠY</a>
+                </div>
+            </a></div>
+            <div class="menu__ele"><a href="#">WORK SHOP</a></div>
+        </div>
+        <div class="logo">
+            <img src="../Login/MediaLogin/Vellichor logo.png" alt="">
+        </div>
+        <div class="menu">
+            <div class="menu__ele"><a href="#">LIFE STYLE</a></div>
+            <div class="menu__ele"><a href="#">REWARDS</a></div>
+            <div class="menu__ele"><a href="#">REFILL & RECYCLE</a></div>
+        </div>
+    </div>
+    <!-- Button to show all products -->
+    <div class="show_all_product">
+        <div class="btn__show__product">
+            <a href="../Shop/Shop.html">XEM TẤT CẢ SẢN PHẨM</a>
+        </div>
+    </div>
+    <!-- End Header -->
+    <!-- Content Product Best Sellers -->
+    <div class="content__bestsellers">
+        <div class="bestsellers">
+            BEST SELLERS
+        </div>
+    </div>
+    <div class="product">
+        <div class="product__item--small">
+            <a href="../ProductDetails/ProductDetails.html?productCode=1">
+                <img src="./MediaHomePage/sp chilhood.png" alt="" class="img__product--item">
+                <div class="product__name">CHILDHOOD MEMORY</div>
+                <div class="product__price">300.000<sup>đ</sup></div>
+            </a>
+        </div>
+        <div class="product__item--small">
+            <a href="../ProductDetails/ProductDetails.html?productCode=2">
+                <img src="./MediaHomePage/image 19.png" alt="" class="img__product--item">
+                <div class="product__name">CHẠM ver.</div>
+                <div class="product__price">380.000<sup>đ</sup></div>
+            </a>
+        </div>
+        <div class="product__item--small">
+            <a href="./ProductDetails.html?productCode=3">
+                <img src="./MediaHomePage/dịu êm.png" alt="" class="img__product--item">
+                <div class="product__name">DỊU ÊM ver.</div>
+                <div class="product__price">360.000<sup>đ</sup></div>
+            </a>
+        </div>
+        <div class="product__item--small">
+            <a href="./ProductDetails.html?productCode=4">
+                <img src="./MediaHomePage/hazelnut.png" alt="" class="img__product--item">
+                <div class="product__name">HAZELNUT COFFEE</div>
+                <div class="product__price">300.000<sup>đ</sup></div>
+            </a>
+        </div>
+    </div>
+    <div class="show_product">
+        <div class="button__show__product">
+            <a href="../Shop/Shop.html">XEM TẤT CẢ SẢN PHẨM</a>
+        </div>
+    </div>
+    <!-- Content collections -->
+    <div class="show_product--content">
+        <div class="product--content">
+            CÁC BỘ SƯU TẬP NẾN
+        </div>
+    </div>
+    <div class="allcollection">
+        <div class="collection">
+            <img src="./MediaHomePage/BST bình yên .png" alt="" class="img__collection">
+            <div class="collection__name">BST BÌNH YÊN</div>
+            <div class="collection__info"><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
+        </div>
+        <div class="collection">
+            <img src="./MediaHomePage/BST ngọt làm - dịu êm.png" alt="" class="img__collection">
+            <div class="collection__name">BST NGỌT LÀNH - DỊU ÊM</div>
+            <div class="collection__info"><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
+        </div>
+        <div class="collection">
+            <img src="./MediaHomePage/BST cummer.png" alt="" class="img__collection">
+            <div class="collection__name">SUMMER CHILL CANDLE</div>
+            <div class="collection__info"><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
+        </div>
+    </div>
+    <div class="content background">
+        <div class="content__text">SẢN PHẦM THUẦN CHAY 100% - THỦ CÔNG - THÀNH PHẦN TỰ NHIÊN - NGUỒN GỐC RÕ RÀNG</div>
+    </div>
+    <div class="content__img background">
+        <img src="./MediaHomePage/planet-earth 1.png" alt="" class="img__content">
+        <img src="./MediaHomePage/3062350 1.png" alt="" class="img__content">
+        <img src="./MediaHomePage/management 1.png" alt="" class="img__content">
+        <img src="./MediaHomePage/sustainability 1.png" alt="" class="img__content">
+    </div>
+    <div class="content">
+        <div class="content__text">DỰ ÁN ĐẶC BIỆT</div>
+    </div>
+    <div class="allcollection">
+        <div class="collection">
+            <img src="./MediaHomePage/BST bình yên .png" alt="" class="img__collection project">
+            <div class="collection__name">REFILL & RECYCLE CANDLE</div>
+            <div class="collection__info"><a href="#">XEM THÊM THÔNG TIN</a></div>
+        </div>
+        <div class="collection">
+            <img src="./MediaHomePage/BST bình yên (1).png" alt="" class="img__collection project">
+            <div class="collection__name">WORKSHOP MAKE CANDLE</div>
+            <div class="collection__info"><a href="#">XEM THÊM THÔNG TIN</a></div>
+        </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer__top">
+            <div class="footer__element">
+                <div class="footer__img">
+                    <img src="./MediaHomePage/Vellichor 1.png" alt="">
+                </div>
+                <div class="footer__text">
+                    Hand-poured and hand-crafted in small batches, using all natural ingredients and therapeutic grade essential oils. Vellichor is a boutique fragrance studio based in Viet Nam, focused on producing high quality soy candles, essential oil blends and home fragrances at a friendly price. All our products are 100% natural with no chemicals or synthetics.
+                </div>
+            </div>
+            <div class="footer__element">
+                <div class="footer__text upper">CONTACT</div>
+                <div class="footer__text">Showroom:    123 Hoa Sứ, P.4, Q.Thủ Đức, TP.Hồ Chí Minh</div>
+                <div class="footer__text">Phone:             +84 789 1011 122</div>
+                <div class="footer__text">Mail:                 vellichor.candle@gmail.com</div>
+                <div class="footer__text upper">SOCIAL MEDIA</div>
+                <div class="footer__contact">
+                    <div class="contact">
+                        <img src="./MediaHomePage/fb.png" alt="">
+                        <img src="./MediaHomePage/instagram.png" alt="">
+                        <img src="./MediaHomePage/linkedin.png" alt="">
+                        <img src="./MediaHomePage/youtube.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__element">
+                <div class="footer__text upper">OTHER</div>
+                <div class="footer__text--parent">
+                    <div class="footer__text--child border">Terms</div>
+                    <div class="footer__text--child border">Privacy Policies</div>
+                    <div class="footer__text--child border">Cookies Policies</div>
+                    <div class="footer__text--child">Help & Support</div>
+                </div>
+                <div class="footer__text upper">PAYMENT</div>
+                <div class="footer__text">Online payment only</div>
+                <div class="footer__payment">
+                    <img src="./MediaHomePage/payment.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="text__bottom">
+                Copyright © 2021. Vellichor. All rights reserved.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

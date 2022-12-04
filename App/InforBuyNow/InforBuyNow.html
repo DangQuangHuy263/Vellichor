@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vellichor</title>
+    <link rel="stylesheet" href="./InforBuyNow.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../Header/Header2.css">
+    <link rel="stylesheet" href="../Footer/Footer.css">
+    <link rel="stylesheet" href="./Shop.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<header w3-include-html="../Header/Header2.html"></header>
+<body>
+    <div class="wrap">
+        <div class="first__line">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+            </svg>
+            <p>BẠN ĐÃ CÓ TÀI KHOẢN</p>
+            <p><a href="">ĐĂNG NHẬP NGAY</a></p>
+        </div>
+        <div class="address__information">
+            <div class="headtitle">
+                <img src="./InforBuyNow/map-pin-user-line.png" alt="" class="icon">
+                <div>ĐỊA CHỈ GIAO HÀNG</div>
+            </div>
+            <div class="form__infor">
+                <div class="form__row">
+                    <label for="" class="form__label">Họ và tên người nhận:</label>
+                    <input type="text" class="form__input">
+                </div>
+                <div class="form__row">
+                    <label for="" class="form__label">Email:</label>
+                    <input type="text" class="form__input">
+                </div>
+                <div class="form__row">
+                    <label for="" class="form__label">Số điện thoại:</label>
+                    <input type="text" class="form__input">
+                </div>
+                <div class="form__row">
+                    <label for="" class="form__label">Tỉnh/Thành phố:</label>
+                    <input type="text" class="form__input">
+                </div>
+                <div class="form__row">
+                    <label for="" class="form__label">Địa chỉ:</label>
+                    <input type="text" class="form__input">
+                </div>
+            </div>
+        </div>
+        <div class="payment__method">
+            <div class="headtitle">
+                <img src="./InforBuyNow/Wallet_alt.png" alt="" class="icon">
+                <div>PHƯƠNG THỨC THANH TOÁN</div>
+            </div>
+            <div class="radio">
+                <input type="radio" name="payment" id="" class="radio__btn">Thanh toán khi nhận hàng
+                <input type="radio" name="payment" id="" class="radio__btn">Ví điện tử
+                <input type="radio" name="payment" id="" class="radio__btn">Thẻ tín dụng/Ghi nợ
+            </div>
+        </div>
+        <div class="check__order">
+            <div class="headtitle">
+                <img src="./InforBuyNow/cart-4.png" alt="" class="icon">
+                <div>KIỂM TRA LẠI ĐƠN HÀNG</div>
+            </div>
+            <div class="title">
+                <div>Sản phẩm</div>
+                <div></div>
+                <div>Đơn giá</div>
+                <div>Số lượng</div>
+                <div>Số tiền</div>
+            </div>
+            <div class="detail">
+                <div class="item">
+                    <img src="../Assets/ProductImg/APPLE PIE.png" alt="">
+                </div>
+                <div class="item">APPLE PIE</div>
+                <div class="item">300.000<sup>đ</sup></div>
+                <div class="item">1</div>
+                <div class="item">300.000<sup>đ</sup></div>
+            </div>
+        </div>
+        <div class="payment__detail">
+            <div>TỔNG THANH TOÁN</div>
+            <div>(1 sản phẩm)</div>
+            <div>300.000<sup>đ</sup></div>
+            <div>Xác nhận thanh toán</div>
+        </div>
+    </div>
+</body>
+<footer w3-include-html="../Footer/Footer.html"></footer>
+<script>
+    w3.includeHTML();
+</script>
+</html>
