@@ -33,6 +33,11 @@
     margin-bottom: 25px;
     cursor: pointer;
 }
+.navi__icon button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
 /* menu bar css */
 .menu__navigation{
   display: flex;
