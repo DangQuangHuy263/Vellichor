@@ -1,0 +1,23 @@
+{
+  "name": "vellichor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DangQuangHuy263/Vellichor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DangQuangHuy263/Vellichor/issues"
+  },
+  "homepage": "https://github.com/DangQuangHuy263/Vellichor#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
