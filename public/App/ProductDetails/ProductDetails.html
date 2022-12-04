@@ -183,6 +183,32 @@
     
     }
 
+    // Chức năng count số lượng
+    let amountElement = document.getElementById('amount');
+    let amount = amountElement.value;
+    let render = (amount) =>{
+        amountElement.value= amount
+    }
+    // Khi người dùng click vào + 
+    let handlePlus =() =>{
+        amount++
+        render(amount);
+    }
+    // Khi người dùng click vào -
+    let handleMinus =() =>{
+        if(amount >1)
+            amount--;
+        render(amount);
+    }
+
+// Xử lý khi người dùng nhập chữ
+amountElement.addEventListener('input', () =>{
+    amount = amountElement.value;
+    amount = parseInt(amount);
+    amount = (isNaN(amount)|| amount==0)?1:amount;
+    render(amount);
+})
+
     </script>
 
 
