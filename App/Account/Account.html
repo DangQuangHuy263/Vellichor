@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vellichor</title>
+    <link rel="stylesheet"  href="./Account.css">
+    <link rel="icon" type="image/x-icon" href="../Header/MediaHeader/Vellichor logo.png">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <link rel="stylesheet" href="../Header/Header2.css">
+    <link rel="stylesheet" href="../Footer/Footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<header w3-include-html="../Header/Header2.html"></header>
+<body>
+    <!-- Personal information -->
+    <div class="container">
+        <div class="display__information">
+            <div class="infor">
+                <img src="./MediaAccount/Avatar.png" alt="" class="img_info1">
+                <h3>Name</h3>
+                <p>Email</p>
+            </div>
+            <div class="infor_line" id="infor_line1">
+                <img src="./MediaAccount/user-check.png" alt="" class="img__info">
+                <div>Tài khoản của tôi</div>
+            </div>
+            <div class="infor_line" id="infor_line2">
+                <img src="./MediaAccount/calendar-edit.png" alt="" class="img__info">
+                <div>Thông tin giao hàng</div>
+            </div>
+            <div class="infor_line" id="infor_line3">
+                <img src="./MediaAccount/cart-4.png" alt="" class="img__info">
+                <div>Đơn mua</div>
+            </div>
+            <div class="infor_line" id="infor_line4">
+                <img src="./MediaAccount/Subtract.png" alt="" class="img__info">
+                <div>Kho voucher</div>
+            </div>
+            <div class="infor_line" id="infor_line5">
+                <img src="./MediaAccount/heart.png" alt="" class="img__info">
+                <div>Sản phẩm đã lưu</div>
+            </div>
+        </div>
+        <div class="details">
+            <!-- Phần Hồ Sơ Của Tôi -->
+            <div class="profile">
+                <div class="contain">
+                    <div class="row">
+                        <h3>Hồ Sơ Của Tôi</h3>
+                        <h5>Quản lý thông tin hồ sơ để bảo mật tài khoản</h5>
+                    </div>
+                    <div class="form__row">
+                        <label for="" class="form__label">Tên đăng nhập:</label>
+                        <input type="text" class="form__input">
+                    </div>
+                    <div class="form__row">
+                        <label for="" class="form__label">Họ và tên:</label>
+                        <input type="text" class="form__input">
+                    </div>
+                    <div class="form__row">
+                        <label for="" class="form__label">Email:</label>
+                        <input type="text" class="form__input">
+                    </div>
+                    <div class="form__row">
+                        <label for="" class="form__label">Số điện thoại:</label>
+                        <input type="text" class="form__input">
+                    </div>
+                    <div class="form__row">
+                        <label for="" class="form__label">Giới tính:</label>
+                        <input type="radio" name="gender" id="" class="form__radio">Nam
+                        <input type="radio" name="gender" id="" class="form__radio">Nữ
+                        <input type="radio" name="gender" id="" class="form__radio">Khác
+                    </div>
+                    <div class="form__row">
+                        <label for="" class="form__label">Ngày sinh:</label>
+                        <input type="number" name="" id="" class="form__input--date">
+                        <input type="number" name="" id="" class="form__input--date">
+                        <input type="number" name="" id="" class="form__input--date">
+                    </div>
+                    <div class="form__btn">
+                        <button>Lưu thông tin</button>
+                    </div>
+                </div>
+                <div class="change__profile">
+                    <img src="./MediaAccount/Avatar.png" alt="" class="img_info2">
+                    <p>Thay ảnh đại diện</p>
+                </div>
+            </div>
+            <!-- Kết thúc phần hồ sơ của tôi -->
+            <!-- Phần địa chỉ của tôi -->
+            <div class="myaddress">
+                <div class="address">
+                    <h3>Địa chỉ của tôi</h3>
+                    <p class="address__content">Địa chỉ</p>
+                    <div class="information">
+                        <div class="name">Ánh Ngọc</div>
+                        <div class="phone">(+84)705459542</div>
+                    </div>
+                    <p>golden buildinh 473 Điện Biên Phủ, Phường 25, Quận Bình Thạnh Phường 25, Quận Bình Thạnh, TP. Hồ Chí Minh</p>
+                    <div class="information">
+                        <div class="name">Sĩ Thiên</div>
+                        <div class="phone">(+84)705459542</div>
+                    </div>
+                    <p>92/9 Nguyễn Tư NghiêmPhường Bình Trưng Tây, Thành Phố Thủ  Đức, TP. Hồ Chí Minh
+                    </p>  
+                </div>    
+                <div class="addmore">
+                    <button class="btn__new">+THÊM ĐỊA CHỈ MỚI</button>
+                    <div class="update__address">
+                        <button class="update__btn">Cập nhật</button>
+                        <button class="remove__btn">Xóa</button>
+                    </div>
+                    <div class="update__address">
+                        <button class="update__btn">Cập nhật</button>
+                        <button class="remove__btn">Xóa</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Kết thúc phần địa chỉ của tôi -->
+            <!-- Phần Voucher của tôi -->
+            <div class="my__voucher">
+                <div class="voucher">Voucher của tôi</div>
+                <div class="voucher__code">
+                    <label for="" class="label">MÃ VOUCHER</label>
+                    <input type="text" class="input" placeholder="Nhập mã voucher">
+                </div>
+                <div class="voucher__img">
+                    <img src="../Assets/MediaAccount/VOUCHER 1.png" alt="" class="vou__img">
+                    <img src="../Assets/MediaAccount/VOUCHER 2.png" alt="" class="vou__img">
+                </div>
+            </div>
+            <!-- Kết thúc phần voucher -->
+            <!-- Phần sản phẩm đã lưu -->
+            <div class="item__saved">
+                <h3>Các sản phẩm đã lưu</h3>
+                <div class="item">
+                    <div class="card">
+                        <img src="../Assets/ProductImg/CHILDHOOD MEMORY.png" alt="Loading.." class="img_save">
+                        <p>CHILDHOOD MEMORY</p>
+                        <span class="product__price">300000<sup>đ</sup></span>
+                    </div>
+                    <div class="card"></div>
+                </div>
+            </div>
+            <!-- Kết thúc phần sản phẩm đã lưu -->
+            <!-- Phần đơn hàng đã mua -->
+            <div class="purchasedproduct">
+                <div class="list__item">
+                    <img src="../Assets/ProductImg/APPLE PIE.png" alt="">
+                    <div class="name">APPLE PIE</div>
+                    <div class="number">1</div>
+                    <div class="price">300000<sup>đ</sup></div>
+                </div>
+                <div class="list__item">
+                    <img src="../Assets/ProductImg/MƠ  ver.png" alt="">
+                    <div class="name">MƠ  ver</div>
+                    <div class="number">2</div>
+                    <div class="price">760000<sup>đ</sup></div>
+                </div>
+                <div class="list__item">
+                    <img src="../Assets/ProductImg/CHILDHOOD MEMORY.png" alt="">
+                    <div class="name">CHILDHOOD MEMORY</div>
+                    <div class="number">1</div>
+                    <div class="price">300000<sup>đ</sup></div>
+                </div>
+                <div class="list__payment">
+                    <h3>TỔNG THANH TOÁN</h3>
+                    <div class="price">992000<sup>đ</sup></div>
+                    <div class="item__status">
+                        Đang giao hàng
+                    </div>
+                </div>
+            </div>
+            <!-- Kết thúc phần đơn hàng đã mua -->
+        </div>
+        
+    </div>
+    <script>
+        w3.includeHTML();
+    </script>
+    <script>
+        $('.profile').show()
+        $('.myaddress').hide()
+        $('.my__voucher').hide()
+        $('.item__saved').hide()
+        $('.purchasedproduct').hide()
+        $('#infor_line1').on('click',()=>{
+            $('.profile').show()
+            $('.myaddress').hide()
+            $('.my__voucher').hide()
+            $('.item__saved').hide()
+            $('.purchasedproduct').hide()
+        })
+        $('#infor_line2').on('click',()=>{
+            $('.profile').hide()
+            $('.myaddress').show()
+            $('.my__voucher').hide()
+            $('.item__saved').hide()
+            $('.purchasedproduct').hide()
+        })
+        $('#infor_line3').on('click',()=>{
+            $('.profile').hide()
+            $('.myaddress').hide()
+            $('.my__voucher').hide()
+            $('.item__saved').hide()
+            $('.purchasedproduct').show()
+        })
+        $('#infor_line4').on('click',()=>{
+            $('.profile').hide()
+            $('.myaddress').hide()
+            $('.my__voucher').show()
+            $('.item__saved').hide()
+            $('.purchasedproduct').hide()
+        })
+        $('#infor_line5').on('click',()=>{
+            $('.profile').hide()
+            $('.myaddress').hide()
+            $('.my__voucher').hide()
+            $('.item__saved').show()
+            $('.purchasedproduct').hide()
+        })
+    </script>
+</body>
+<footer w3-include-html="../Footer/Footer.html"></footer>
+</html>

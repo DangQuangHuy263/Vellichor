@@ -1,0 +1,296 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* CSS phần thông tin */
+.container{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+}
+.display__information{
+    flex-basis: 20%;
+    margin-left: 30px;
+}
+.infor_line{
+    display: flex;
+    margin-bottom: 26px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.infor_line div{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 22px;
+    color: #753422;
+}
+.change__profile{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.img_info2{
+    width: 147px;
+    height: 147px;
+    margin-bottom: 30px;
+}
+.img__info{
+    margin: auto 20px;
+}
+.infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 76px;
+}
+.details{
+    flex-basis: 50%;
+    margin-left: 150px;
+}
+.change__profile{
+    flex-basis: 30%;
+}
+.row{
+    margin-bottom: 92px;
+}
+.form__row{
+    margin-bottom: 20px;
+}
+.form__label{
+    font-size: 30px;
+    line-height: 37px;
+}
+.form__input{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 200px;
+}
+.form__radio{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+.form__row input{
+    margin-left: 10px;
+}
+.form__input--date{
+    max-width: 100px;
+    height: 34px;
+}
+.form__btn{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 80px;
+}
+.form__btn button{
+    margin-right: 20px;
+    width: 283px;
+    height: 60.72px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    background: #753422;
+    backdrop-filter: blur(2px);
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form__btn button:active{
+    opacity: 0.2;
+}
+/* //Phần địa chỉ của tôi */
+.myaddress{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.myaddress{
+    display: flex;
+}
+.address p{
+    margin-top: 5px;
+}
+.address h3{
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.address .address__content{
+    margin-bottom: 50px;
+    font-weight: 800;
+    font-size: 20px;
+}
+.information{
+    display: flex;
+    margin-top: 30px;
+}
+.information .phone{
+    margin-left: 10px;
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+.addmore .btn__new{
+    border: none;
+    background-color: #753422;
+    padding: 10px 15px;
+    width: 200px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+.addmore .btn__new:active{
+    opacity: 0.3;
+}
+.update__address{
+    margin-bottom: 65px;
+    margin-left: 50px;
+}
+.remove__btn{
+    margin-left: 15px;
+}
+.remove__btn ,.update__btn{
+    color: #4E6C50;
+    font-weight: 600;
+    font-size: 15px;
+}
+.update__address button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+/* Phần Voucher của tôi */
+.my__voucher{
+    margin-top: 20px;
+}
+.voucher{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.voucher__code{
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.voucher__code label{
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 39px;
+    color: #753422;
+    margin-right: 30px;
+}
+.voucher__code input{
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgba(117, 52, 34, 0.8);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 30px;
+    font-size: 20px;
+    color: #753422;
+}
+.voucher__img{
+    display: flex;
+}
+.vou__img{
+    height: 150px;
+    width: 300px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+/* Phần sản phẩm đã lưu */
+.item__saved{
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.item__saved h3{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.item{
+    display: flex;
+}
+.img_save{
+    height: 180px;
+    width: 200px; 
+}
+.card p{
+    margin: 10px auto 0;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+Phần đơn hàng đã mua
+
+.purchasedproduct{
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+.list__item{
+    display: flex;
+    justify-content: flex-start;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+.list__item img{
+    height: 180px;
+    width: 200px; 
+    border-radius: 10px;
+    margin-right: 60px;
+}
+.list__item .name{
+    padding-top: 80px;
+    margin-right: 100px;
+    width: 200px;
+    font-size: 20px;
+}
+.list__item .number{
+    padding-top: 80px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+.list__item .price{
+    padding-top: 75px;
+    font-size: 20px;
+    color: #FF9900;
+}
+.list__payment{
+    display: flex;
+}
+.list__payment h3{
+    color: #753422;
+    margin-right: 150px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.list__payment .price{
+    font-weight: 700;
+    font-size: 30px;
+    color: #753422;
+    padding-top: -20px;
+    margin-right: 80px;
+}
+.item__status{
+    width: 200px;
+    height: 50px;
+    background-color: #753422;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 15px;
+}
