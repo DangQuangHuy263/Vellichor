@@ -1,0 +1,272 @@
+[
+    {
+        "productCode":1,
+        "productName":"CHILDHOOD MEMORY",
+        "productImg":"CHILDHOOD MEMORY.png",
+        "productPrice": 300000,
+        "productSale": 380000,
+        "productUnit":"đ",
+        "productContent":"Là loại sản phẩm nến thơm signalture của Vellichor.Childhood memory mang hương ngọt nhẹ được chiết xuất từ lê ngọt và rượu brandy. Tạo nên sự ngọt ngào, quyến rũ cực kỳ thư giãn.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":2,
+        "productName":"CHẠM VER.",
+        "productImg":"CHẠM VER.png",
+        "productPrice": 380000,
+        "productSale": 400000,
+        "productUnit":"đ",
+        "productContent":"CHẠM là một sự pha trộn ấm cúng, thoải mái và cay nồng sẽ khiến bạn khao khát nhiều hơn nữa! Mùi hương ấm áp và thơm ngon này bao gồm sự pha trộn phong phú, đậm đà của các loại gia vị lễ hội, với các nốt hương của Quế, Gừng, Bạch đậu khấu và Nhục đậu khấu.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":3,
+        "productName":"DỊU ÊM VER.",
+        "productImg":"DỊU ÊM VER.png",
+        "productPrice": 360000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"Mùi hương này được mô tả tốt nhất là ấm áp, gợi cảm và tinh tế! Những nốt hương ngọt ngào, say đắm của Dịu êm, kết hợp hoàn hảo với những nốt hương cay, xạ hương của Đinh hương, tạo ra một mùi hương phong phú và thoải mái giúp nâng cao tinh thần.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":4,
+        "productName":"HAZELNUT COFFEE",
+        "productImg":"HAZELNUT COFFEE.png",
+        "productPrice": 300000,
+        "productSale": 380000,
+        "productUnit":"đ",
+        "productContent":"Nến là tuyệt vời để làm dịu tâm trí và khôi phục lại sự cân bằng cảm xúc. Chúng tôi thực sự khuyên bạn nên đốt ngọn nến này để tạo tâm trạng cho một đêm chậm rãi, lãng mạn.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":5,
+        "productName":"MƠ VER.",
+        "productImg":"MƠ VER.png",
+        "productPrice": 380000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"Một mùi hương nhẹ nhàng, sảng khoái với những nốt hương cam quýt mát lạnh, giòn và ngọt ngào giúp nâng cao và tiếp thêm sinh lực cho các giác quan.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":6,
+        "productName":"YÊN VER.",
+        "productImg":"YÊN VER.png",
+        "productPrice": 380000,
+        "productSale": 410000,
+        "productUnit":"đ",
+        "productContent":"Chúng tôi khuyên bạn nên đốt ngọn nến này vào ban ngày để kích thích tinh thần tăng năng suất trong công việc. Các nốt hương sắc nét, long não của Bạc hà cũng rất tốt để làm sạch đường hô hấp, ngăn ngừa chứng đau nửa đầu và buồn nôn nếu bạn cảm thấy khó chịu.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":7,
+        "productName":"WINTER WALTZ",
+        "productImg":"WINTER WALTZ.png",
+        "productPrice": 300000,
+        "productSale": 320000,
+        "productUnit":"đ",
+        "productContent":"Awakening có một mùi hương thảo mộc mát mẻ với những nốt hương tươi mát của cam quýt. Sử dụng điều này trong ngày để hồi sinh và đánh thức các giác quan, đồng thời tăng năng suất và sự tỉnh táo.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":8,
+        "productName":" CHERRY BLOSSOM",
+        "productImg":"CHERRY BLOSSOM.png",
+        "productPrice": 300000,
+        "productSale": 320000,
+        "productUnit":"đ",
+        "productContent":"Cây nến này mang đến một mùi hương hoa tươi sáng, sạch sẽ, cân bằng với các nốt hương phong phú của gỗ lâu năm và hoắc hương đất. Bạn sẽ thích mùi hương này nếu bạn đang tìm kiếm một mùi hương hoa độc đáo mà không quá ngọt hay quá nồng. ",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":9,
+        "productName":"APPLE PIE",
+        "productImg":"APPLE PIE.png",
+        "productPrice": 300000,
+        "productSale": 380000,
+        "productUnit":"đ",
+        "productContent":"Chỉ cần hít hà là mọi ưu phiền tan biến, chỉ còn cảm giác yêu đời và lâng lâng hạnh phúc trong một căn phòng ngập tràn hương thơm của một món nước thơm.Mùi hương ấy chiết xuất từ quả táo đỏ, quế, vani, dừa và rượu bourbon.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":10,
+        "productName":"NGỌT LÀNH VER",
+        "productImg":"NGỌT LÀNH VER.png",
+        "productPrice": 360000,
+        "productSale": 380000,
+        "productUnit":"đ",
+        "productContent":"Một hũ nến thơm sẽ càng trở nên đặc biệt và đong đầy tình cảm khi mang trên mình cả những thông điệp yêu thương, chữa lành.Mùi hương ấy chiết xuất từ hương dưa gang và dâu tây.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":11,
+        "productName":"SWEET AND SOUR",
+        "productImg":"SWEET AND SOUR.png",
+        "productPrice": 360000,
+        "productSale": 380000,
+        "productUnit":"đ",
+        "productContent":"Một hũ nến thơm sẽ càng trở nên đặc biệt và đong đầy tình cảm khi mang trên mình cả những thông điệp yêu thương, chữa lành.Mùi hương ấy chiết xuất từ hương dưa gang và dâu tây.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":12,
+        "productName":"OCEAN ROSES",
+        "productImg":"OCEAN ROSES.png",
+        "productPrice": 300000,
+        "productSale": 330000,
+        "productUnit":"đ",
+        "productContent":"Hương thơm thoang thoảng của vườn hồng cùng những làn gió mát từ bờ biển là những cảm giác sẽ gợi lên trong bạn khi đắm chìm trong hương thơm của Ocean rose.Mùi hương ấy chiết xuất từ hoa hồng và muối biển.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":13,
+        "productName":"TRẦM ver.",
+        "productImg":"TRẦM ver.png",
+        "productPrice": 380000,
+        "productSale": 400000,
+        "productUnit":"đ",
+        "productContent":"Nốt 'Trầm' hay nốt 'Mơ', trầm ấm hay bay bổng, bạn sẽ chọn nốt hương nào cho những ngày đầu đông đang đợi ngoài khung cửa?Mùi hương ấy chiết xuất từ quả táo đỏ, quế và cam quýt.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":14,
+        "productName":"CARAMEL POPCORN",
+        "productImg":"CARAMEL POPCORN.png",
+        "productPrice": 300000,
+        "productSale": 380000,
+        "productUnit":"đ",
+        "productContent":"Chúng mình yêu cảm giác căn phòng được hô biến thành rạp chiếu phim với Caramel Popcorn.Mùi hương ấy chiết xuất từ bơ và muối biển ",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":15,
+        "productName":"CATUS FLOWER",
+        "productImg":"CATUS FLOWERpng",
+        "productPrice": 300000,
+        "productSale": 380000,
+        "productUnit":"đ",
+        "productContent":"Để cảm nhận hương thơm của Cactus Flower, bạn hãy thử nhắm mắt lại và nghĩ về hình ảnh của một cây xương rồng có hoa, mong manh chực tàn lụi, rực rỡ nhưng cũng đầy tiếc nuối.Mùi hương ấy chiết xuất từ lô hội, chi thùa.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":16,
+        "productName":"INTO THE WOODS",
+        "productImg":"INTO THE WOODS.png",
+        "productPrice": 300000,
+        "productSale": 380000,
+        "productUnit":"đ",
+        "productContent":"Hương thơm thoang thoảng của mùi gỗ sẽ mang đến cho bạn cảm giác nhẹ nhàng, thư thái như được trở về với những ký ức xưa cũ.Mùi hương ấy chiết xuất từ nam việt quất, quế và gỗ thông.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":17,
+        "productName":"SIP OF PEACE",
+        "productImg":"SIP OF PEACE.png",
+        "productPrice": 300000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"“Sip of peace” mang hương vị hơi chát, ngọt hậu của bạch trà, cùng hàm lượng tinh dầu trong cam bergamot - một loại cam không thường dành để ăn vì hương thơm mang vị đắng và chua. Nhưng khi kết hợp lại, 2 thành phần chính này lại tạo nên một hương thơm có chút tinh tế, trải đời và nồng đậm.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":18,
+        "productName":"LILY OF THE VALLEY",
+        "productImg":"LILY OF THE VALLEY.png",
+        "productPrice": 300000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"Trong hũ nến thơm Lily of the Valley, mùi hương của Linh Lan được kết hợp với hương thơm của các tinh thể muối biển, quyện thêm với chút hoa nhài để tạo ra sự cân bằng hoàn hảo giữa độ tươi mát và ngọt ngào cho mùi hương.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":19,
+        "productName":"ORANGE PEPPER",
+        "productImg":"ORANGE PEPPER.png",
+        "productPrice": 300000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"Orange Pepper ra đời với sự kết hợp của hai sắc thái đối lập - cam tươi mát và tiêu ấm nóng. Sự tươi mát và ấm áp tương phản của loại nến thơm này có thể giúp bạn cân bằng lại cảm xúc và có 1 ngày tết ý vị hơn. ",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":20,
+        "productName":"MIDNIGHT IN PARIS",
+        "productImg":"MIDNIGHT IN PARIS.png",
+        "productPrice": 300000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"Midnight in Paris, mang tới hương sắc: ngọt của hoa nhài, mùi ấm của gỗ và chút ngọt hương vani của hổ phách, lấp lánh trên nền gỗ đàn hương âm trầm phảng phất, có chút gì đó hoài niệm và lưu luyến.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":21,
+        "productName":"SEA SALT & ROSE",
+        "productImg":"SEA SALT & ROSE.png",
+        "productPrice": 310000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"Sự kiêu sa của hương hoa hồng hòa quyện cùng cái phóng khoáng, tự do của muối biển tạo nên cái cảm giác như bạn đang ở ngôi nhà ven biển, và hít hà hương thơm từ đoá hồng của khu vườn kế bên.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":22,
+        "productName":"ORANGE POPSICLE",
+        "productImg":"ORANGE POPSICLE.png",
+        "productPrice": 310000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"Orange Popsicle là sự hòa quyện hoàn hảo của hương cam chanh mọng nước và vị ngọt nhẹ của đào và vanilla. Hương vị của Orange Popsicle hệt như cây kem cam bạn thường nhâm nhi ngày bé, chua dịu và mát lịm.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":23,
+        "productName":"MAY LILY",
+        "productImg":"MAY LILY.png",
+        "productPrice": 310000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"Nốt hương ngọt ngào và trong trẻo của hoa linh lan và hoa nhài, chút man mát của muối biển cùng sự êm dịu của đậu tonka sẽ là đám mây trắng bồng bềnh giúp bạn thư giãn và giải tỏa mọi căng thẳng sau một ngày ngột ngạt và nóng nực.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":24,
+        "productName":"Valentine Ver. 02",
+        "productImg":"Valentine Ver. 02.png",
+        "productPrice": 350000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"“You are my home” - Là 1 trong bộ 4 sản phẩm thuộc BST Valentine năm nay. You are my home mang sự ấm nồng, ngọt ngào theo từng cung bậc cảm xúc trong mối quan hệ. Mùi hương ấy chiết xuất từ cam quýt, lựu và gỗ teak cho mua Valentine nhiều cảm xúc.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":25,
+        "productName":"Valentine Ver. 01",
+        "productImg":"Valentine Ver. 01.png",
+        "productPrice": 350000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"“Iam here” - Là 1 trong bộ 4 sản phẩm thuộc BST Valentine năm nay. I’m here mang mùi hương vừa ngọt vừa say đắm được chiết xuất từ táo, lê và rượu bourbon. Tạo nên sự say mê và sức hút nồng cháy cho mùa Valentine.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":26,
+        "productName":"Valentine Ver. 03",
+        "productImg":"Valentine Ver. 03.png",
+        "productPrice": 350000,
+        "productSale": 390000,
+        "productUnit":"đ",
+        "productContent":"“Grow old with me” - Là 1 trong bộ 4 sản phẩm thuộc BST Valentine năm nay. Grow old with me mang mùi hương nhẹ nhàng vừa ấm nóng được chiết xuất từ quả việt quất và gỗ thông. Sự ấm áp, trưởng thành với sự đồng hành của Grow old with me làm nên một mùa Valentine trọn vẹn.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    },
+    {
+        "productCode":27,
+        "productName":"Valentine Ver.++",
+        "productImg":"Valentine Ver.++.png",
+        "productPrice": 380000,
+        "productSale": 410000,
+        "productUnit":"đ",
+        "productContent":"“I love you more” - Là 1 trong bộ 4 sản phẩm thuộc BST Valentine năm nay. I love you more mang theo cả những lời tỏ tình cực ngọt ngào và ý nghĩa để bạn dành tặng cho một nửa của mình. Mùi hương ấy chiết xuất từ quả táo đỏ, quế, vani, dừa và rượu bourbon.",
+        "productDetail":"Dung tích: 4.25 oz Thời gian đốt: 25 giờ đốt nến"
+    }
+]
