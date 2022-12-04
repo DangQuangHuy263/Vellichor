@@ -281,7 +281,7 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 70vw;
 
 }
 
@@ -292,6 +292,7 @@ html,body{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 107px;
     /* width: fit-content; */
 }
 
