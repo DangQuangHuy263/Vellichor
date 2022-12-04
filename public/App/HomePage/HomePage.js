@@ -27,3 +27,6 @@ function myAccount() {
 function myCart() {
   window.location.href = "../Account/Account.html";
 }
+function homePage() {
+  window.location.href = "./HomePage.html";
+}
