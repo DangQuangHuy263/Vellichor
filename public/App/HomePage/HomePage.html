@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vellichor</title>
     <link rel="stylesheet" href="./HomePage.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="../CSS/main.css">
     <script src="./HomePage.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../Footer/Footer.css">
 </head>
 <body>
     <!-- image slider start -->
@@ -76,7 +78,7 @@
             <div class="menu__ele"><a href="#">WORK SHOP</a></div>
         </div>
         <div class="logo">
-            <img src="../Login/MediaLogin/Vellichor logo.png" alt="">
+            <img src="./MediaHomePage/Vellichor logo.png" alt="">
         </div>
         <div class="menu">
             <div class="menu__ele"><a href="#">LIFE STYLE</a></div>
@@ -179,7 +181,7 @@
             <div class="collection__info"><a href="#">XEM THÊM THÔNG TIN</a></div>
         </div>
     <!-- Footer -->
-    <div class="footer">
+    <!-- <div class="footer">
         <div class="footer__top">
             <div class="footer__element">
                 <div class="footer__img">
@@ -225,5 +227,10 @@
             </div>
         </div>
     </div>
+     -->
 </body>
+<footer w3-include-html="../Footer/Footer.html"></footer>
+<script>
+    w3.includeHTML();
+</script>
 </html>
