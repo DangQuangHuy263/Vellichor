@@ -9,7 +9,7 @@ Trước khi bắt đầu, bạn cần đọc những hướng dẫn dưới đ�
        + B4: Tiến hành thanh toán và chờ đợi nhận hàng
 3.	Cấu trúc thư mục: 
        + Thư mục Public chứa các file code, asset(data, hình ảnh).
-4.Chức năng website
+4.	Chức năng website
        + 4.1. Đăng ký/ đăng nhập:
        Với tài khoản, khi đăng ký, khách hàng bắt buộc phải điền thông tin như tên đăng nhập/SĐT, email và mật khẩu. Về đăng nhập, người dùng có thể liên kết tài khoản với các tài khoản xã hội khác như Facebook, Google, Apple. 
 
