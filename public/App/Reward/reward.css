@@ -12,14 +12,14 @@ html,body{
     font-family: Montserrat;
     text-align: center;
 }
-
+/* Chính sách khách hàng thân thiết */
 .reward_policy{
     padding: 0 20%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 .title{
@@ -32,38 +32,12 @@ html,body{
 .reward-content_body1{
     text-align: left;
 }
-
+/* Cách thức nhận điểm */
 .get_points{
     margin-top: 87px;
     padding: 0 15%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.contactus-container{
-    /* padding: 0 35%; */
-    display:flex;
-    flex-direction: column;
-    /* top: 50%; */
-
-    background-image: url(../Assets/MediaReward/lien\ hệ\ với\ chúng\ tôi\ \(1\).png);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-size: cover; */
-    width: 100vw;
-    height: 500px;
-    align-items: center;
-
-}
-.content-containerbox{
-    padding: 0 15%;
-    display:flex;
-    flex-direction: row;
-    /* top: 50%; */
-
     justify-content: center;
     align-items: center;
 }
@@ -158,7 +132,7 @@ html,body{
     justify-content: center;
     align-items: center;
 }
-
+/* quyền lợi khách hàng */
 .permission{
     padding: 0 15%;
     display:flex;
@@ -168,7 +142,6 @@ html,body{
     margin-top: 10px;
     /* width: fit-content; */
     /* height: 100%; */
-
 }
 
 .benefit_content{
@@ -225,7 +198,7 @@ html,body{
     height: 230px;
     align-items: center;
 }
-
+/* đổi điểm thưởng */
 .change_points{
     margin: 0 20%;
     display:flex;
@@ -234,7 +207,7 @@ html,body{
     align-items: center;
     margin-top: 100px;
 }
-
+/* hạng mức đổi điểm thưởng */
 .rank_points{
     display:flex;
     flex-direction: row;
@@ -246,7 +219,7 @@ html,body{
     width: 300px;
     margin: 40px;
 }
-
+/* điều khoản và điều kiện */
 .rules{
     margin: 0 20%;
     /* padding: 0 25%; */
@@ -273,7 +246,7 @@ html,body{
     margin-top: auto;
     margin-bottom: auto;
 }
-
+/* image cảm ơn */
 .thankyou{
     margin: 0 auto;
     display:flex;
@@ -283,7 +256,7 @@ html,body{
     width: 70vw;
 
 }
-
+/* Liên hệ với chung tối - lớn*/
 .contact{
     padding: 0 25%;
     display:flex;
@@ -295,6 +268,30 @@ html,body{
     /* width: fit-content; */
 }
 
+/* Liên hệ với chung tối */
+.contactus-container{
+    /* padding: 0 35%; */
+    display:flex;
+    flex-direction: column;
+    /* top: 50%; */
+
+    background-image: url(../Assets/MediaReward/lien\ hệ\ với\ chúng\ tôi\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    width: 100vw;
+    height: 500px;
+    align-items: center;
+}
+
+.content-containerbox{
+    padding: 0 15%;
+    display:flex;
+    flex-direction: row;
+    /* top: 50%; */
+    justify-content: center;
+    align-items: center;
+}
 
 .title-nor{
     font-size: 35px;
@@ -380,6 +377,7 @@ html,body{
     font-size: medium;
 }
 
+/* chỉnh icon */
 .material-symbols-outlined{
     font-size: 50px;
     margin: 0 20px;
@@ -388,7 +386,7 @@ html,body{
     align-items: center;
     display: flex;
 }
-
+/* size icon */
 .bi{
     font-size: 30px;
 }
