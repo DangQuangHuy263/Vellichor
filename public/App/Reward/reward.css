@@ -49,7 +49,7 @@ html,body{
     flex-direction: column;
     /* top: 50%; */
 
-    background-image: url(./hình/lien\ hệ\ với\ chúng\ tôi\ \(1\).png);
+    background-image: url(../Assets/MediaReward/lien\ hệ\ với\ chúng\ tôi\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
     /* background-size: cover; */
@@ -173,7 +173,7 @@ html,body{
 }
 
 .benefit_content{
-    background-image: url(./hình/nền\ KHTT\ -\ có\ line.png);
+    background-image: url(../Assets/MediaReward/nền\ KHTT\ -\ có\ line.png);
     background-size: contain;
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
