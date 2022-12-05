@@ -387,8 +387,137 @@ CSS
     margin-top: 10px;
     /* width: fit-content; */
 }
-<<<<<<< HEAD
-=======
+/* Liên hệ với chung tối - lớn*/
+.contact{
+    padding: 0 25%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 107px;
+    /* width: fit-content; */
+}
 
+/* Liên hệ với chung tối */
+.contactus-container{
+    /* padding: 0 35%; */
+    display:flex;
+    flex-direction: column;
+    /* top: 50%; */
 
->>>>>>> 264d93226e9340b48d56170f24e6cb8e03327ec1
+    background-image: url(../Assets/MediaReward/lien\ hệ\ với\ chúng\ tôi\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    width: 100vw;
+    height: 500px;
+    align-items: center;
+}
+
+.content-containerbox{
+    padding: 0 15%;
+    display:flex;
+    flex-direction: row;
+    /* top: 50%; */
+    justify-content: center;
+    align-items: center;
+}
+
+.title-nor{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.address{
+    margin: 0 5px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: 450px;
+    height: 550px;
+    align-items: center;
+
+}
+
+.phone{
+    margin: 0 35px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: 350px;
+    height: 550px;
+    align-items: center;
+}
+
+.social{
+    margin: 0 5px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 550px;
+    align-items: center;
+}
+
+.circle{
+    background: #915D4E;
+    clip-path: circle(50%);
+    height: 8em;
+    width: 8em;
+    margin: 0 20px;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.mini-title{
+    margin-top: 20px;
+}
+
+.mini-content{
+    margin: 25px 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mini-content-social{
+    margin: 25px 40px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    align-items: center;
+}
+
+.add{
+    margin-bottom: 10px;
+}
+.add-social{
+    margin-bottom: 20px;
+}
+
+.title-add1{
+    font-weight: bold;
+}
+
+.content-add1{
+    text-align: left;
+    font-size: medium;
+}
+
+/* chỉnh icon */
+.material-symbols-outlined{
+    font-size: 50px;
+    margin: 0 20px;
+    color: #442921;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* size icon */
+.bi{
+    font-size: 30px;
+}
