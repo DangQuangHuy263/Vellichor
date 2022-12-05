@@ -48,7 +48,7 @@
     padding-left: 32px;
 }
 .logo__img{
-    width: 322px;
+    width: 300px;
     height: 196px;
 }
 .menubar{
@@ -64,8 +64,8 @@
 .menubar div a{
     color: #753422;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-weight: 700;
-    font-size: 20px;
+    font-weight: 500;
+    /* font-size: 20px */
     line-height: 24px;
     text-decoration: none;   
 }
@@ -94,8 +94,7 @@
   }
 
   .dropdown-content a {
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300px;
     line-height: 24px;
     text-decoration: none;
     display: block;
