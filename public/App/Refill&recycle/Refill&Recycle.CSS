@@ -6,6 +6,7 @@ html,body{
     color: #000;
     min-width: 15px;
     font-size-adjust: inherit;
+    line-height: 30px;
 }
 
 /* CSS Body */
@@ -46,7 +47,7 @@ img{
     background-color: #D7C0AE;
 }
 .body_action_box4 ol li{
-    margin-left: 2%;
+    margin-left: 5%;
 }
 .body_action_box4 h3{
     text-align: center;

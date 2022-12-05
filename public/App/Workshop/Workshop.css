@@ -4,6 +4,7 @@ html, body{
     font-family: 'Montserrat', sans-serif;
     /* font-size: 2vw; */
     min-width: 15px;
+    line-height: 30px;
 }
 .content_body1{
     text-align: center;
@@ -74,6 +75,7 @@ html, body{
 
 .content_body5 ul li{
     list-style:none; 
+    font-size: 1.7vw;
 }
 .content_body5 ul li:before{
     content: ' '; 	
