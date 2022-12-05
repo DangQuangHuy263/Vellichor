@@ -125,4 +125,10 @@ a{
   display: block;
   background: rgba(191, 115, 115, 0.2);
 }
-
+@media screen and (max-width: 950px) 
+{
+    .menu__navigation{
+        flex-direction: column;
+        /* float: left; */
+    }
+}
