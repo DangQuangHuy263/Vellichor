@@ -359,10 +359,9 @@ html,body{
 .mini-content-social{
     margin: 25px 40px;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
-    width: 350px;
-    height: 230px;
+    width: fit-content;
     align-items: center;
 }
 
