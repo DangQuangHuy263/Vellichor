@@ -226,7 +226,7 @@ html,body{
     align-items: center;
 }
 
-.container-4{
+.change_points{
     margin: 0 20%;
     display:flex;
     flex-direction: column;
@@ -235,7 +235,7 @@ html,body{
     margin-top: 100px;
 }
 
-.changes_point{
+.rank_points{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -247,7 +247,7 @@ html,body{
     margin: 40px;
 }
 
-.container-5{
+.rules{
     margin: 0 20%;
     /* padding: 0 25%; */
     display:inline-block;
@@ -274,7 +274,7 @@ html,body{
     margin-bottom: auto;
 }
 
-.container-6{
+.thankyou{
     margin: 0 auto;
     display:flex;
     flex-direction: column;
@@ -284,7 +284,7 @@ html,body{
 
 }
 
-.container-7{
+.contact{
     padding: 0 25%;
     display:flex;
     flex-direction: column;
