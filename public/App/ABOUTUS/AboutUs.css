@@ -1,4 +1,8 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 html,body{
     font-size: 2vw;
@@ -22,30 +26,40 @@ img{
     justify-content: center;
     flex-wrap: wrap;
     padding: -5%;
+    mar
     
 }
-
+.row_1{
+    margin-top: 20px;
+}
 .row_item{
-    width: 310px;
+    width: 430px;
     height: 500px;
-    margin-left: 20px;
     margin-right: 20px;
-    font-size: 25px;
-    padding: auto;
+    font-size: 20px;
+    /* padding: 30px; */
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
   
 }
-
-.row_img{
-    width: 300px; 
-    height: 200px;
-    margin-bottom: 50px;
-    /* margin-left: auto;
-    margin-right: auto;
-    display: block; */
+.row_item img{
+    width: 400px;
+    height: 301px;
+    /* margin-left: 5px; */
+    margin-bottom: 20px;
 }
 
+.row_3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+
 .aboutus_2{
-    background-image: url(./hinhanh/thanhphan1.png);
+    background-image: url(../Assets/MediaAboutUs/thanhphan1.png);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -58,9 +72,10 @@ img{
 
 .aboutus_21{
     
-    margin-top: 100px;
+    margin-top: 130px;
     margin-bottom: 30px;
     margin-left: 60px;
+    font-size: 25px;
 }
 .aboutus_22{
     width: 60%;
@@ -73,12 +88,13 @@ img{
     margin-left: 40PX;
 }
 .aboutus_3{
-    background-image: url(./hinhanh/thanhphan2.png);
+    background-image: url(../Assets/MediaAboutUs/thanhphan2nha.png);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-top: 0px;
 }
 .aboutus_23{
     width: 80%;
@@ -91,13 +107,13 @@ img{
     margin-bottom: 80px;
 }
 .aboutus_24{
-    margin-top: 60px;
+    margin-top: 70px;
     margin-bottom: 30px;
-    margin-right: 60px;
+    margin-right: 50px;
 }
 
 .aboutus_4{
-    background-image: url(./hinhanh/thanhphan3.png);
+    background-image: url(../Assets/MediaAboutUs/thanhphan3.png);
     background-size: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -106,7 +122,7 @@ img{
 }
 .aboutus_25{
 
-    margin-top: 80px;
+    margin-top:100px;
     margin-bottom: 30px;
     margin-right: 40px; 
     margin-left: 60px; 
@@ -134,13 +150,16 @@ img{
     margin-top: 80px; 
     margin-left: 80px;
     margin-right: 10px;
+    margin-bottom: 90px;
 
 }
 
-.h2{
-margin-left: 20;
+.aboutus_27sumenh{
+    font-size: 40px;
+    margin-top: 30px;
+    letter-spacing: 20px;
+
 }
-    
 .aboutus_28{
     width: 60%;
     margin-top: 40px; 
