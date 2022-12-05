@@ -23,6 +23,12 @@ img{
     width: 100%;
     height: auto;
 }
+.content_body1_big{
+    font-size: 4vw;
+    font-weight: 700;
+    color:#753422 ;
+    text-align: center;
+}
 .body_action_box{
    margin: 0%;
 }
@@ -38,6 +44,9 @@ img{
 }
 .body_action_box4{
     background-color: #D7C0AE;
+}
+.body_action_box4 ol li{
+    margin-left: 2%;
 }
 .body_action_box4 h3{
     text-align: center;
