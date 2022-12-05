@@ -221,8 +221,8 @@ html,body{
 }
 /* điều khoản và điều kiện */
 .rules{
-    margin: 0 20%;
-    /* padding: 0 25%; */
+    /* margin: 0 18%; */
+    padding: 0 20%;
     display:inline-block;
     flex-direction: column;
     justify-content: center;
@@ -235,11 +235,21 @@ html,body{
     display:flex;
     flex-direction: column;
     text-align: left;
+    /* border: 1px solid black;
+    border-radius: 20px; */
+    margin: 0px 15px;
+    font-size: medium;
+    height: 320px;
+    /* background-color: #FF9900; */
+}
+.rules div:nth-child(2){
+    text-align: left;
     border: 1px solid black;
     border-radius: 20px;
     margin: 0px 15px;
     font-size: medium;
-    height: 320px;
+    height: 340px;
+    padding: 10px;
 }
 
 .rules_content{
