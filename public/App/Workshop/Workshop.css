@@ -9,12 +9,12 @@ html, body{
     text-align: center;
 }
 .content_body1_big{
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 700;
     color:#753422 ;
 }
 .content_body1_small{
-    font-size: 2.5vw;
+    font-size: 2vw;
     color:#753422 ;
 }
 .content_body2{
@@ -80,7 +80,7 @@ html, body{
     display:inline-block; 	
     height:2em; 	
     width:3em; 	
-    background-image:url(./image/workshopli.png); 	
+    background-image:url(../Assets/Workshop/image/workshopli.png); 	
     background-size:contain; 	
     background-repeat:no-repeat; 
 }
@@ -101,7 +101,7 @@ html, body{
     margin-left: 4%  ;
     height: auto;
     border-radius: 4px;
-    background-image: url(./image/workshop8.png);
+    background-image: url(../Assets/Workshop/image/workshop8.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -114,7 +114,7 @@ html, body{
 }
 .content_body6{
     background-repeat: no-repeat;
-    background-image: url(./image/workshop9.png);
+    background-image: url(../Assets/Workshop/image/workshop9.png);
     background-size: cover;
     min-height: 10vh;
     background-position: center;
