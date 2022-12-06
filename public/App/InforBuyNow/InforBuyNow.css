@@ -150,3 +150,6 @@ a{
 .payment__detail div:nth-child(4):active{
     opacity: 0.5;
 }
+.address__information, .payment__method, .check__order{
+    margin: 5%;
+}
