@@ -14,9 +14,8 @@
 .slideshow_image{
     width : 100vw;
     /* height :580px; */
-    height: 80%;
+    height: 100vh;
     /* margin-left: -10px; */
-
 }
 .navi__dot{
     position: absolute;
