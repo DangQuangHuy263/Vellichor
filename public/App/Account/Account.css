@@ -75,7 +75,25 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
-    width: 200px;
+    width: 280px;
+}
+.form__input_ten{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 250px;
+}
+.form__input_hoten{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 335px;
+}
+.form__input_email{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 392px;
 }
 .form__radio{
     font-weight: 400;
