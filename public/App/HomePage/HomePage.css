@@ -11,6 +11,12 @@
 .slideshow-container {
     position: relative;
 }
+.slideshow_image{
+    width : 100vw;
+    height :660px;
+    /* margin-left: -10px; */
+
+}
 .navi__dot{
     position: absolute;
     top: 700px;
@@ -121,11 +127,17 @@
     top:160px;
     width: 100vw;
     flex-direction: row;
+    margin-top: -20px;
+}
+.logo{
+    width: 350px;
+    margin-top: -60px;
 }
 .menu{
     display: flex;
-    border-bottom: thin solid #753422;
-    border-top: thin solid #753422;
+    border-bottom: thin solid #f7f7f7;
+    border-top: thin solid #fdfdfd;
+    width: 900px;
     
     
   }
