@@ -61,14 +61,14 @@ html, body{
   align-items: center;
   /* font-size: 1.5vw; */
   text-align: center;
-min-width: fit-content;
+  min-width: fit-content;
 }
 .menu{
-  margin: 75px 0 20px 0;
+  margin: 75px 0 20px 20px;
   display: flex;
   border-bottom: thin solid #753422;
   border-top: thin solid #753422;
-  
+  /* border: 1px solid black; */
   
 }
 a{
@@ -141,9 +141,10 @@ a{
   background: rgba(191, 115, 115, 0.2);
 }
 .logo img{
-  width: 80%;
-  text-align: center;
-
+  width: 90%;
+  /* text-align: center;
+  border: 1px solid black; */
+  margin-right: -50px;
 
 }
 .dropdown:hover{
