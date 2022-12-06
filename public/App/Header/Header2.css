@@ -105,8 +105,8 @@
     /* padding: 10px 30px 50px 30px; */
     z-index: 1;
     top: 45px;
-    bottom: 5px;
-    left: -60px;
+    bottom: 0px;
+    left: -30px;
     justify-content: center;
     text-align: center;
 
@@ -133,7 +133,7 @@
   }
   .menu div:hover{
     background: rgba(191, 115, 115, 0.2);
-    text-decoration: underline; 
+    /* text-decoration: underline;  */
   }
   .menu__ele:active{
     background: rgba(191, 115, 115, 0.2);
@@ -148,6 +148,9 @@
   .menu div{
     width: 100%;
     
+  }
+  .dropdown-content a{
+    text-align: center;
   }
   .dropdown-content a:active{
     background: rgba(191, 115, 115, 0.2);
