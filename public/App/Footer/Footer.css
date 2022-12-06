@@ -1,15 +1,21 @@
 /* CSS Footer */
-*{
+html, body{
     margin: 0px;
     padding: 0px;
+    /* font-size: 1.5vw; */
 }
 .footer{
     background: linear-gradient(0deg, rgba(191, 115, 115, 0.2), rgba(191, 115, 115, 0.2)), linear-gradient(0deg, rgba(200, 102, 47, 0.45), rgba(200, 102, 47, 0.45)), rgba(0, 0, 0, 0.76);
     color: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 100vw;
-    padding: 0 4%;
+    width: 100%;
+    /* padding: -4%; */
     box-sizing: border-box;
+}
+.footer__img img{
+    width: 100%;
+    min-width: 100px;
+    
 }
 .footer__top{
     display: flex;
@@ -33,16 +39,22 @@
     padding-right: 3px;
 }
 .footer__contact{
+    /* width: 30px; */
+    /* margin: 20px; */
     box-sizing: border-box;
     padding-top: 30px;
 }
+.footer__contact img{
+    /* width: 30px; */
+    margin: 18px;
+}
 .footer__text{
-    font-size: 20px;
+    /* font-size: 20px; */
     font-weight: 400;
     line-height: 25px;
 }
 .contactus img{
-    margin-right: 25px;
+    /* margin-right: 25px; */
     height: 45px;
     width: 50px;
 }
@@ -52,14 +64,25 @@
     box-sizing: border-box;
 }
 .footer__payment{
+    /* width: 100%; */
     box-sizing: border-box;
     padding-top: 80px;
     padding-bottom: 20px;
 }
+/* .footer__payment image{
+    width: 100px;
+} */
 .footer__element{
     flex-basis: 33%;
-    margin-right: 84px;
+    /* word-break: break-all; */
+    /* display: flex;
+    flex-direction: column;
+    width: 33%; */
+    margin: 4%;
 }
+/* .footer__element img:nth-last-child(){
+    width: 70v;
+} */
 .footer__bottom{
     display: flex;
     justify-content: space-around;
@@ -71,8 +94,48 @@
 }
 .text__bottom{
     display: inline-block;
-    font-size: 16px;
+    /* font-size: 16px; */
     font-weight: 400;
     padding-bottom: 10px;
     margin-top: 20px;
 }  
+@media screen and (max-width: 950px) 
+{
+    .footer{
+       font-size: 15px;
+        line-height: 15px;
+        width: 100vw;
+    }
+
+    .footer__top{
+        display: flex;
+        flex-direction: row;
+        order: 1;
+    }
+    .footer__payment img{
+        width: 100%;
+        height: auto;
+    }
+    .footer__text--parent{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer__text--child.border{
+        border-bottom: 1px solid white;
+        border-right: none;
+        text-align: center;
+    }
+    .footer__contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__text{
+        display: flex;
+        flex-wrap: wrap;
+        word-break: break-all;
+    }
+    
+    
+
+}

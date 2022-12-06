@@ -1,12 +1,13 @@
-html,body{
+html,body {
     margin: 0px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
     /* font-size: 2vw;  */
     color: #000;
-    min-width: 15px;
-    font-size-adjust: inherit;
-    font-size: 1.5vw;
+    /* min-width: 15px; */
+    /* font-size-adjust: inherit; */
+/* 
+    font-size: 20px; */
 }
 
 /* CSS Body */
@@ -19,14 +20,14 @@ html,body{
 }
 .body_action{
     padding: 7%;
-    line-height: 30px;
+    /* line-height: 25px; */
 }
 img{
     width: 100%;
     height: auto;
 }
 .content_body1_big{
-    font-size: 3vw;
+    font-size: 25px;
     font-weight: 700;
     color:#753422 ;
     text-align: center;
@@ -61,10 +62,18 @@ img{
     width: 90%;
 }
 
-@media screen and (max-width: 950px) 
+@media screen and (max-width: 450px) 
 {
     html,body {
-        font-size: 15px;
-        line-height: 15px;
+        font-size: 20px;
+        /* line-height: 15px; */
+    }
+    .body_action_box2{
+        display: flex;
+        flex-direction: column;
+    }
+    .body_action_box2_img{
+        width: 95%;
+
     }
 }
