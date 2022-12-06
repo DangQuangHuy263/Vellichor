@@ -115,7 +115,7 @@
 }
 .icon__navigation__bar{
     position: absolute;
-    right: 81px;
+    right: 30px;
     top:107px
 }
 /* CSS  Menu  */
@@ -138,6 +138,8 @@
     border-bottom: thin solid #f7f7f7;
     border-top: thin solid #fdfdfd;
     width: 900px;
+    justify-content: space-around;
+    align-items: center;
     
     
   }
