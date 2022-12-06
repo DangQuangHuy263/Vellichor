@@ -6,6 +6,7 @@ html,body{
     color: #000;
     min-width: 15px;
     font-size-adjust: inherit;
+    font-size: 1.5vw;
 }
 
 /* CSS Body */
@@ -60,3 +61,10 @@ img{
     width: 90%;
 }
 
+@media screen and (max-width: 950px) 
+{
+    html,body {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
