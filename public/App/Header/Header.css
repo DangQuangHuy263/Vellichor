@@ -3,7 +3,7 @@ html, body{
     padding: 0px;
     box-sizing: border-box;
     font-family: "Montserrat",sans-serif;
-    word-spacing: 2.25px;
+    /* word-spacing: 2.25px; */
     font-size: 19px;
 }
 .sticky{
