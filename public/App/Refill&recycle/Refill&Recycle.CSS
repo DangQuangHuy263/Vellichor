@@ -5,6 +5,12 @@ html,body {
     color: #000;
     
 }
+/* header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+} */
 
 /* CSS Body */
 .body h1, h2, h3{
@@ -66,5 +72,6 @@ img{
     }
     .body_action_box2_img{
         width: 95%;
+
     }
 }
