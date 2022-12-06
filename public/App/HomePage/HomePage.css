@@ -112,6 +112,7 @@
     background: linear-gradient(0deg, rgba(191, 115, 115, 0.2), rgba(191, 115, 115, 0.2)), linear-gradient(0deg, rgba(200, 102, 47, 0.45), rgba(200, 102, 47, 0.45)), rgba(0, 0, 0, 0.76);
     opacity: 0.8;
     justify-content: center;
+    text-align: center;
     align-items: center;
     position: absolute;
     top: 0;
@@ -398,8 +399,10 @@ img.img__product--item{
 
 } 
 
-.brgimg_sp{
-    margin-top: 30px;
+.brgimg_sp p{
+    /* margin-top: 30px; */
+    text-align: center;
+    font-size: 1.7vw;
 }    
 
 .item{
@@ -477,10 +480,17 @@ img.img__product--item{
     background-image: url(../Assets/MediaHomePage/background.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    min-height: 200px;
     align-items: center;
     margin-top: 70px;
     margin-bottom: 40px;
     height: 400px;
+}
+.brgimg img{
+    margin: 0 40px ;
+    width: 50%;
+    margin: 0 4%;
+    height: 50%;
 }
 .brgimg div:nth-child(1){
     padding: 20px;
@@ -492,5 +502,5 @@ img.img__product--item{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
 }
