@@ -6,7 +6,6 @@ html,body{
     color: #000;
     min-width: 15px;
     font-size-adjust: inherit;
-    line-height: 30px;
 }
 
 /* CSS Body */
@@ -19,6 +18,7 @@ html,body{
 }
 .body_action{
     padding: 7%;
+    line-height: 30px;
 }
 img{
     width: 100%;
