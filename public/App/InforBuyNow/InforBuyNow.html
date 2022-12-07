@@ -88,12 +88,41 @@
             <div>TỔNG THANH TOÁN</div>
             <div>(1 sản phẩm)</div>
             <div>300.000<sup>đ</sup></div>
-            <div>Xác nhận đặt hàng</div>
+            <div id="btn-open">Xác nhận đặt hàng</div>
         </div>
     </div>
+    <!-- Modal -->
+    <div id="modal-container" >
+        <div id="modal-demo" class="modal">
+            <div class="modal-header">
+                <h3>Vellichor thông báo</h3>
+                <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Cảm ơn bạn đã lựa chọn sản phẩm của chúng tôi, vui lòng vào giỏ hàng để kiểm tra thông tin chi tiết</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
 </body>
 <footer w3-include-html="../Footer/Footer.html"></footer>
 <script>
     w3.includeHTML();
+    // Add cart
+    const btn_open = document.getElementById('btn-open');
+        const btn_close = document.getElementById('btn-close');
+        const modal_container = document.getElementById('modal-container');
+        const modal_demo = document.getElementById('modal-demo');
+        btn_open.addEventListener('click',()=>{
+            modal_container.classList.add('show')
+        })
+        btn_close.addEventListener('click',()=>{
+            modal_container.classList.remove('show')
+        })
+        modal_container.addEventListener('click', (e)=>{
+            if(!modal_demo.contains(e.target)){
+                btn_close.click();
+            }
+        })
 </script>
 </html>
