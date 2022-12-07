@@ -1,3 +1,6 @@
+function mySearch() {
+    window.location.href = "../Shop/Shop.html";
+}
 function myAccount() {
     // window.open("../Account/Account.html");
     window.location.href = "../Account/Account.html";
