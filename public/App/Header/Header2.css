@@ -36,6 +36,11 @@
     margin-bottom: 25px;
     cursor: pointer;
 }
+.navi__icon button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
 /* .form__login{
     display: flex;
     flex-direction: column;

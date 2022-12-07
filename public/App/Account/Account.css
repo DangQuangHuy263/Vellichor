@@ -24,6 +24,11 @@
     margin-bottom: 26px;
     /* justify-content: center; */
     align-items: center;
+    cursor: pointer;
+    padding: 10px 20;
+}
+.infor_line:hover{
+    background: rgba(191, 115, 115, 0.2)
 }
 .infor_line div{
     font-weight: 800;
