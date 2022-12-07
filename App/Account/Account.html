@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../Footer/Footer.css">
     <link rel="stylesheet" href="../Header/Header.js" defer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <header w3-include-html="../Header/Header2.html"></header>
 <body>
@@ -80,7 +81,7 @@
                         <input type="number" name="" id="" class="form__input--date">
                         <input type="number" name="" id="" class="form__input--date">
                     </div>
-                    <div class="form__btn">
+                    <div class="form__btn" id="btn-open">
                         <button>Lưu thông tin</button>
                     </div>
                 </div>
@@ -176,7 +177,17 @@
             </div>
             <!-- Kết thúc phần đơn hàng đã mua -->
         </div>
-        
+    </div>
+    <div id="modal-container" >
+        <div id="modal-demo" class="modal">
+            <div class="modal-header">
+                <h3>Vellichor thông báo</h3>
+                <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Thông tin của bạn đã được cập nhật!</p>
+            </div>
+        </div>
     </div>
     <script>
         w3.includeHTML();
@@ -233,7 +244,20 @@
             function homePage() {
                 window.location.href = "../HomePage/HomePage.html";
             }
-
+            function mySearch() {
+                 window.location.href = "../Shop/Shop.html";
+}
+            // Add cart
+        const btn_open = document.getElementById('btn-open');
+        const btn_close = document.getElementById('btn-close');
+        const modal_container = document.getElementById('modal-container');
+        const modal_demo = document.getElementById('modal-demo');
+        btn_open.addEventListener('click',()=>{
+            modal_container.classList.add('show')
+        })
+        btn_close.addEventListener('click',()=>{
+            modal_container.classList.remove('show')
+        })
     </script>
 </body>
 <footer w3-include-html="../Footer/Footer.html"></footer>

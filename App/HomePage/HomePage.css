@@ -58,12 +58,14 @@
 }
 .navigation__bar{
     display: flex;
-    
+    background-color: transparent;
+    box-sizing: border-box;
 }
 .navigation__bar button{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    padding: 10px 15px;
 }
 /* Style search box */
 #search-box{
@@ -77,17 +79,16 @@
     border: none;
     outline: none;
     background: none;
-    /* padding: 10px 15px; */
+    padding: 10px 15px;
     font-size: 18px;
     width: 0;
     padding: 0;
     color: #753422;
-    font-weight: bold;
     transition: all 0.25s ease-in-out;
     
 }
 #search-box:hover #search-text{
-    width: 100px;
+    width: 150px;
     padding: 10px 15px;
     background-color: white;
 }
@@ -95,8 +96,9 @@
     background-color:transparent;
     cursor: pointer;
     border: none;
-    padding: 1px;
-    border-radius: 50%;
+    /* padding: 1px; */
+    padding: 10px 15px;
+    /* border-radius: 50%; */
 }
 #search-box:hover #search-text, #search-box #search-text:valid{
     width: 200px;
