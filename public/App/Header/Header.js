@@ -11,3 +11,6 @@ function myCart() {
 function homePage() {
     window.location.href = "../HomePage/HomePage.html";
 }
+function myReward() {
+    window.location.href = "../Reward/reward.html";
+}

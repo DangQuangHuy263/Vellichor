@@ -21,6 +21,7 @@
   text-align: center;
   /* font-size: 15px; */
   padding: 10px 0 10px;
+  cursor: pointer;
 }
 /* navigation bar with icon */
 .icon__navigation{
