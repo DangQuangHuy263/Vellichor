@@ -24,7 +24,7 @@
     font-size: 30px;
     color: #753422;
 }
-button{
+.wrap button{
     display: flex;
     flex-direction: row;
     width: 300px;
@@ -43,7 +43,7 @@ button{
     color: #FFFFFF;
     padding-right: 5px;
 }
-button p{
+.wrap button p{
     padding-right: 20px;
     color: #FFFFFF;
     font-weight: 900;
