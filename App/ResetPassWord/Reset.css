@@ -25,7 +25,7 @@
     margin-bottom: 8px;
 }
 .form__input{
-    width: 850px;
+    width: 600px;
     height: 80px;
     border: 1px solid #945A4A;
     border-radius: 10px;
@@ -49,4 +49,64 @@
 }
 .form__button:active{
     opacity: 0.5;
+}
+/* Style Modal */
+#wrapper{
+    min-height: 100vh;
+}
+button#btn-open{
+    /* background-color: blue; */
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#modal-container{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+    pointer-events: none;
+    
+}
+#modal-container.show{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal{
+    background: #753422;
+    max-width: 500px;
+    position: relative;
+    left: 50%;
+    top:0px;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-in-out;
+}
+#modal-container.show .modal{
+    top:300px;
+}
+.modal .modal-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #dedede;
+}
+.modal .modal-header h3 {
+    margin: 0;
+}
+button#btn-close{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.modal .modal-body{
+    padding: 10px 20px 15px;
 }

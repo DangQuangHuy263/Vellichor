@@ -4,7 +4,7 @@ html,body{
     box-sizing: border-box;
 }
 
-.reward{
+.big_container{
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -12,14 +12,14 @@ html,body{
     font-family: Montserrat;
     text-align: center;
 }
-
-.container-1{
+/* Chính sách khách hàng thân thiết */
+.reward_policy{
     padding: 0 20%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
 .title{
@@ -32,38 +32,12 @@ html,body{
 .reward-content_body1{
     text-align: left;
 }
-
-.container-2{
+/* Cách thức nhận điểm */
+.get_points{
     margin-top: 87px;
     padding: 0 15%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.contactus-container{
-    /* padding: 0 35%; */
-    display:flex;
-    flex-direction: column;
-    /* top: 50%; */
-
-    background-image: url(./hình/lien\ hệ\ với\ chúng\ tôi\ \(1\).png);
-    background-repeat: no-repeat;
-    background-position: center;
-    /* background-size: cover; */
-    width: 100vw;
-    height: 500px;
-    align-items: center;
-
-}
-.content-containerbox{
-    padding: 0 15%;
-    display:flex;
-    flex-direction: row;
-    /* top: 50%; */
-
     justify-content: center;
     align-items: center;
 }
@@ -158,9 +132,8 @@ html,body{
     justify-content: center;
     align-items: center;
 }
-
-
-.container-3{
+/* quyền lợi khách hàng */
+.permission{
     padding: 0 15%;
     display:flex;
     flex-direction: column;
@@ -169,11 +142,10 @@ html,body{
     margin-top: 10px;
     /* width: fit-content; */
     /* height: 100%; */
-
 }
 
 .benefit_content{
-    background-image: url(./hình/nền\ KHTT\ -\ có\ line.png);
+    background-image: url(../Assets/MediaReward/nền\ KHTT\ -\ có\ line.png);
     background-size: contain;
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
@@ -226,8 +198,8 @@ html,body{
     height: 230px;
     align-items: center;
 }
-
-.container-4{
+/* đổi điểm thưởng */
+.change_points{
     margin: 0 20%;
     display:flex;
     flex-direction: column;
@@ -235,8 +207,8 @@ html,body{
     align-items: center;
     margin-top: 100px;
 }
-
-.changes_point{
+/* hạng mức đổi điểm thưởng */
+.rank_points{
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -247,10 +219,10 @@ html,body{
     width: 300px;
     margin: 40px;
 }
-
-.container-5{
-    /* margin: 0 20%; */
-    padding: 0 25%;
+/* điều khoản và điều kiện */
+.rules{
+    /* margin: 0 18%; */
+    padding: 0 20%;
     display:inline-block;
     flex-direction: column;
     justify-content: center;
@@ -259,42 +231,85 @@ html,body{
 }
 
 .rules_content-body5{
-    display: flex;
+    /* margin: 25px 40px; */
+    display:flex;
     flex-direction: column;
-
-    border: 1px solid black;
-    border-radius: 20px;
     text-align: left;
-
+    /* border: 1px solid black;
+    border-radius: 20px; */
     margin: 0px 15px;
     font-size: medium;
     height: 320px;
+    /* background-color: #FF9900; */
 }
+.rules div:nth-child(2){
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0px 15px;
+    font-size: medium;
+    height: 340px;
+    padding: 20px;
+}
+
 .rules_content{
     margin-top: auto;
     margin-bottom: auto;
 }
-
-.container-6{
+/* image cảm ơn */
+.thankyou{
     margin: 0 auto;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 70vw;
 
 }
-
-.container-7{
+/* Liên hệ với chung tối - lớn*/
+.contact{
     padding: 0 25%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    margin-bottom: 107px;
     /* width: fit-content; */
 }
 
+/* Liên hệ với chung tối */
+.contactus-container{
+    /* padding: 0 35%; */
+    display:flex;
+    flex-direction: column;
+    /* top: 50%; */
+
+    background-image: url(../Assets/MediaReward/lien\ hệ\ với\ chúng\ tôi\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    width: 100vw;
+    height: 600px;
+    align-items: center;
+}
+
+.content-containerbox{
+    padding: 0 15%;
+    display:flex;
+    flex-direction: row;
+    /* top: 50%; */
+    justify-content: center;
+    align-items: center;
+}
+.content-containerbox2{
+    padding: 0 15%;
+    display:flex;
+    flex-direction: row;
+    /* top: 50%; */
+    justify-content: center;
+    align-items: center;
+}
 
 .title-nor{
     font-size: 35px;
@@ -358,10 +373,9 @@ html,body{
 .mini-content-social{
     margin: 25px 40px;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
-    width: 350px;
-    height: 230px;
+    width: fit-content;
     align-items: center;
 }
 
@@ -381,6 +395,7 @@ html,body{
     font-size: medium;
 }
 
+/* chỉnh icon */
 .material-symbols-outlined{
     font-size: 50px;
     margin: 0 20px;
@@ -389,7 +404,18 @@ html,body{
     align-items: center;
     display: flex;
 }
-
+/* size icon */
 .bi{
     font-size: 30px;
+}
+@media screen and (max-width: 950px) 
+{
+    .content-containerbox{
+        display: flex;
+        flex-direction: column;
+    }
+    .benefit_content{
+        display: flex;
+        flex-direction: column;
+    }
 }

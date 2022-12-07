@@ -2,19 +2,21 @@ html, body{
     margin:0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2vw;
-    min-width: 15px;
+    /* font-size: 2vw; */
+    /* min-width: 15px;
+    line-height: 30px;
+    font-size: 1.5vw; */
 }
 .content_body1{
     text-align: center;
 }
 .content_body1_big{
-    font-size: 4vw;
+    font-size: 37px;
     font-weight: 700;
     color:#753422 ;
 }
 .content_body1_small{
-    font-size: 2.5vw;
+    font-size: 27px;
     color:#753422 ;
 }
 .content_body2{
@@ -73,15 +75,16 @@ html, body{
 }
 
 .content_body5 ul li{
-    margin-left: -10%;
     list-style:none; 
+    font-size: 1.5vw;
+    
 }
 .content_body5 ul li:before{
     content: ' '; 	
     display:inline-block; 	
     height:2em; 	
     width:3em; 	
-    background-image:url(./image/workshopli.png); 	
+    background-image:url(../Assets/Workshop/image/workshopli.png); 	
     background-size:contain; 	
     background-repeat:no-repeat; 
 }
@@ -102,7 +105,7 @@ html, body{
     margin-left: 4%  ;
     height: auto;
     border-radius: 4px;
-    background-image: url(./image/workshop8.png);
+    background-image: url(../Assets/Workshop/image/workshop8.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -115,7 +118,7 @@ html, body{
 }
 .content_body6{
     background-repeat: no-repeat;
-    background-image: url(./image/workshop9.png);
+    background-image: url(../Assets/Workshop/image/workshop9.png);
     background-size: cover;
     min-height: 10vh;
     background-position: center;
@@ -130,4 +133,17 @@ html, body{
 .content_body7 img{
     width: 90%;
     height: auto;
+}
+@media screen and (max-width: 950px) 
+{
+    html,body {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .content_body5 ul li{
+        list-style:none; 
+        font-size: 15px;
+        line-height: 20px;
+        
+    }
 }

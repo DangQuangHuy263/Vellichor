@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="../Footer/Footer.css">
     <link rel="stylesheet" href="./ProductDetails.css">
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../Header/Header2.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<!-- <header w3-include-html="../Header/Header2.html"></header> -->
+<header w3-include-html="../Header/Header2.html"></header>
 <body>
-    <div class="content">
+    <!-- <div class="content">
         <div class="text">
             Nhập code "WELCOME" để được GIẢM 20% tổng hóa đơn đến hết ngày 28/12 + FREESHIP cho đơn hàng có giá trị trên 400.000VNĐ
         </div>
-    </div>
+    </div> -->
     <!-- create navigation bar with icon -->
-    <div class="navi__icon">
+    <!-- <div class="navi__icon">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
         </svg>
@@ -32,11 +34,11 @@
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
         </svg>  
-    </div>
+    </div> -->
     <!-- login navigation bar Begin -->
-    <div class="navigation">
+    <!-- <div class="navigation">
         <div class="logo">
-            <img src="../Login/MediaLogin/Vellichor logo.png" alt="Loading..." class="logo__img">
+            <img src="../Assets/MediaHomePage/Vellichor logo.png" alt="Loading..." class="logo__img">
         </div>
         <div class="menubar">
             <div><a href="#">ABOUT US</a></div>
@@ -51,7 +53,7 @@
             <div><a href="#">REWARDS</a></div>
             <div><a href="#">REFILL & RECYCLE</a></div>
         </div>
-    </div>
+    </div> -->
     <!-- login navigation bar End -->
     <!-- Body begin -->
     <div class="products__details" id="details_product">
@@ -96,13 +98,13 @@
                 </svg>              
             </button>
         </div>
-        <div class="order_to_cart">
+        <div class="order_to_cart" id="btn-open">
             <svg width="50" height="50" viewBox="0 0 66 59"  fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3.0293 23L1.25832 21.2355C0.669908 21.826 0.414582 22.671 0.577503 23.4886L3.0293 23ZM62.8113 23L65.2631 23.4886C65.4261 22.671 65.1707 21.826 64.5823 21.2355L62.8113 23ZM56.1689 56.3333V58.8333C57.3613 58.8333 58.3877 57.9913 58.6207 56.8219L56.1689 56.3333ZM9.67175 56.3333L7.21995 56.8219C7.45298 57.9913 8.47939 58.8333 9.67175 58.8333V56.3333ZM24.7276 4.76455C25.7022 3.78646 25.6993 2.20355 24.7212 1.22902C23.7431 0.254487 22.1602 0.257367 21.1857 1.23545L24.7276 4.76455ZM44.655 1.23545C43.6804 0.257367 42.0975 0.254487 41.1194 1.22902C40.1414 2.20355 40.1385 3.78646 41.113 4.76455L44.655 1.23545ZM3.0293 25.5H62.8113V20.5H3.0293V25.5ZM60.3595 22.5114L53.7171 55.8448L58.6207 56.8219L65.2631 23.4886L60.3595 22.5114ZM56.1689 53.8333H9.67175V58.8333H56.1689V53.8333ZM12.1235 55.8448L5.48109 22.5114L0.577503 23.4886L7.21995 56.8219L12.1235 55.8448ZM4.80028 24.7645L24.7276 4.76455L21.1857 1.23545L1.25832 21.2355L4.80028 24.7645ZM64.5823 21.2355L44.655 1.23545L41.113 4.76455L61.0404 24.7645L64.5823 21.2355Z" fill="#753422"/>
             </svg>
             <p>Thêm vào giỏ hàng</p>
         </div>
-        <div class="order__now">
+        <div class="order__now" onclick="buyNow()">
             <svg xmlns="http://www.w3.org/2000/svg" class="svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
             </svg>
@@ -145,6 +147,27 @@
         </a>
     </div>
     <!-- Recommend Products end -->
+    <!-- Modal -->
+    <!-- <div id="wrapper">
+        <h1>Tạo modal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, cumque voluptatem, dolores est aperiam alias temporibus molestias eius, quam qui mollitia maiores et numquam? Quia, quam! Quia earum itaque eaque.</p>
+        <button id="btn-open">Click Here Open Modal</button>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio saepe, inventore magni ea consequuntur asperiores dicta voluptatem, natus veritatis eius animi laudantium. Modi consequuntur, laboriosam inventore vitae quia eligendi iste?</p> -->
+        <!-- Modal -->
+        <div id="modal-container" >
+            <div id="modal-demo" class="modal">
+                <div class="modal-header">
+                    <h3>Vellichor thông báo</h3>
+                    <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="modal-body">
+                    <p>Sản phẩm của bạn đã được thêm giỏ hàng thành công!</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal -->
+    </div>
+        <!-- End Modal -->
     
 </body>
 <footer w3-include-html="../Footer/Footer.html"></footer>
@@ -183,6 +206,54 @@
     
     }
 
+    // Chức năng count số lượng
+    let amountElement = document.getElementById('amount');
+    let amount = amountElement.value;
+    let render = (amount) =>{
+        amountElement.value= amount
+    }
+    // Khi người dùng click vào + 
+    let handlePlus =() =>{
+        amount++
+        render(amount);
+    }
+    // Khi người dùng click vào -
+    let handleMinus =() =>{
+        if(amount >1)
+            amount--;
+        render(amount);
+    }
+
+// Xử lý khi người dùng nhập chữ
+amountElement.addEventListener('input', () =>{
+    amount = amountElement.value;
+    amount = parseInt(amount);
+    amount = (isNaN(amount)|| amount==0)?1:amount;
+    render(amount);
+})
+
+// Add cart
+        const btn_open = document.getElementById('btn-open');
+        const btn_close = document.getElementById('btn-close');
+        const modal_container = document.getElementById('modal-container');
+        const modal_demo = document.getElementById('modal-demo');
+        btn_open.addEventListener('click',()=>{
+            modal_container.classList.add('show')
+        })
+        btn_close.addEventListener('click',()=>{
+            modal_container.classList.remove('show')
+        })
+        modal_container.addEventListener('click', (e)=>{
+            if(!modal_demo.contains(e.target)){
+                btn_close.click();
+            }
+        })
+
+
+// Buy Now
+function buyNow(){
+    window.location.href = "../InforBuyNow/InforBuyNow.html";
+}
     </script>
 
 

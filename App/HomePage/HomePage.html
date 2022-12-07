@@ -6,24 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vellichor</title>
     <link rel="stylesheet" href="./HomePage.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="icon" href="../Assets/MediaHomePage/Vellichor logo.png" type="image/gif" sizes="16x16">
     <script src="./HomePage.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../Footer/Footer.css">
 </head>
 <body>
     <!-- image slider start -->
     <div class="slideshow-container">
         <div class="mySlides fade">
-            <img src="./MediaHomePage/imagehp1.png" alt="" style="opacity: 0.8;">
+            <img src="../Assets/MediaHomePage/imagehp1.png" alt="" style="opacity: 0.8;" class="slideshow_image">
         </div>
         <div class="mySlides fade">
-            <img src="./MediaHomePage/imagehp2.png" alt="">
+            <img src="../Assets/MediaHomePage/imagehp2.png" alt=""  style="opacity: 0.8;"class="slideshow_image">
         </div>
         <div class="mySlides fade">
-            <img src="./MediaHomePage/imagehp3.png" alt="" style="opacity: 0.8;">
+            <img src="../Assets/MediaHomePage/imageph3.png" alt="" style="opacity: 0.8;" class="slideshow_image">
         </div>
         <div class="mySlides fade">
-            <img src="./MediaHomePage/imagehp4.png" alt="">
+            <img src="../Assets/MediaHomePage/imageph4.png" alt=""  style="opacity: 0.8;" class="slideshow_image">
         </div>
         <div class="navi__dot">
             <span class="dot"></span> 
@@ -59,29 +62,29 @@
             <button onclick="myCart()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
             </svg></button>
-            <button><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
+            <button onclick="homePage()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 icon__navigation">
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
             </svg></button>
         </div>           
     </div>
     <div class="menu__navigation">
         <div class="menu">
-            <div class="menu__ele"><a href="#">ABOUT US</a></div>
+            <div class="menu__ele"><a href="../ABOUTUS/AboutUs.html">ABOUT US</a></div>
             <div class="dropdown"><a href="../Shop/Shop.html">SHOPPING
                 <div class="dropdown-content">
                     <a href="../Shop/ShopBst.html">BÁN THEO CHỦ ĐỀ</a>
                     <a href="../Shop/Shop.html">SẢN PHẨM BÁN CHẠY</a>
                 </div>
             </a></div>
-            <div class="menu__ele"><a href="#">WORK SHOP</a></div>
+            <div class="menu__ele"><a href="../Workshop/Workshop.html">WORK SHOP</a></div>
         </div>
         <div class="logo">
-            <img src="../Login/MediaLogin/Vellichor logo.png" alt="">
+            <a href="../HomePage/HomePage.html"><img src="../Assets/MediaHeader/Vellichor croped.png" class="logo_image" width="350px" height="200px"></a>
         </div>
         <div class="menu">
-            <div class="menu__ele"><a href="#">LIFE STYLE</a></div>
-            <div class="menu__ele"><a href="#">REWARDS</a></div>
-            <div class="menu__ele"><a href="#">REFILL & RECYCLE</a></div>
+            <div class="menu__ele"><a href="../Lifestyle/Lifestyle.html">LIFE STYLE</a></div>
+            <div class="menu__ele"><a href="../Reward/reward.html">REWARDS</a></div>
+            <div class="menu__ele"><a href="../Refill&recycle/Refill&Recycle.html">REFILL & RECYCLE</a></div>
         </div>
     </div>
     <!-- Button to show all products -->
@@ -100,130 +103,84 @@
     <div class="product">
         <div class="product__item--small">
             <a href="../ProductDetails/ProductDetails.html?productCode=1">
-                <img src="./MediaHomePage/sp chilhood.png" alt="" class="img__product--item">
+                <img src="../Assets/ProductImg/CHILDHOOD MEMORY.png" alt="" class="img__product--item">
                 <div class="product__name">CHILDHOOD MEMORY</div>
                 <div class="product__price">300.000<sup>đ</sup></div>
             </a>
         </div>
         <div class="product__item--small">
             <a href="../ProductDetails/ProductDetails.html?productCode=2">
-                <img src="./MediaHomePage/image 19.png" alt="" class="img__product--item">
+                <img src="../Assets/ProductImg/CHẠM ver.png" alt="" class="img__product--item">
                 <div class="product__name">CHẠM ver.</div>
                 <div class="product__price">380.000<sup>đ</sup></div>
             </a>
         </div>
         <div class="product__item--small">
-            <a href="../ProductDetails.html?productCode=3">
-                <img src="./MediaHomePage/dịu êm.png" alt="" class="img__product--item">
+            <a href="../ProductDetails/ProductDetails.html?productCode=3">
+                <img src="../Assets/ProductImg/DỊU ÊM ver.png" alt="" class="img__product--item">
                 <div class="product__name">DỊU ÊM ver.</div>
                 <div class="product__price">360.000<sup>đ</sup></div>
             </a>
         </div>
         <div class="product__item--small">
-            <a href="../ProductDetails.html?productCode=4">
-                <img src="./MediaHomePage/hazelnut.png" alt="" class="img__product--item">
+            <a href="../ProductDetails/ProductDetails.html?productCode=4">
+                <img src="../Assets/ProductImg/HAZELNUT COFFEE.png" alt="" class="img__product--item">
                 <div class="product__name">HAZELNUT COFFEE</div>
                 <div class="product__price">300.000<sup>đ</sup></div>
             </a>
         </div>
     </div>
-    <div class="show_product">
-        <div class="button__show__product">
-            <a href="../Shop/Shop.html">XEM TẤT CẢ SẢN PHẨM</a>
+    <br>
+    <br>
+    <div class="title">
+        <div>CÁC BỘ SƯU TẬP NẾN</div>
+    </div>
+    <div class="collection">
+        <div class="item">
+            <img src="../Assets/MediaHomePage/BST bình yên.png" alt="" class="img">
+            <span>BST BÌNH YÊN</span>
+            <div><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
+        </div>
+        <div class="item">
+            <img src="../Assets/MediaHomePage/BST ngọt làm - dịu êm.png" alt="" class="img">
+            <span>BST NGỌT LÀNH - DỊU ÊM</span>
+            <div><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
+        </div>
+        <div class="item">
+            <img src="../Assets/MediaHomePage/BST cummer.png" alt="" class="img">
+            <span>SIGNATURECANLES</span>
+            <div><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
         </div>
     </div>
-    <!-- Content collections -->
-    <div class="show_product--content">
-        <div class="product--content">
-            CÁC BỘ SƯU TẬP NẾN
+    <div class="brgimg">
+        <div class="brgimg_sp"  >
+            <p> SẢN PHẨM THUẦN CHAY 100% - THỦ CÔNG - THÀNH PHẦN TỰ NHIÊN - NGUỒN GỐC RÕ RÀNG</p> 
+        </div>
+        <div class="img">
+            <img src="../Assets/MediaHomePage/earth.png" alt="" class="img">
+            <img src="../Assets/MediaHomePage/plant.png" alt="" class="img">
+            <img src="../Assets/MediaHomePage/wwater nha.png" alt="" class="img" >
+            <img src="../Assets/MediaHomePage/giap.png" alt="" class="img">
         </div>
     </div>
-    <div class="allcollection">
-        <div class="collection">
-            <img src="./MediaHomePage/BST bình yên .png" alt="" class="img__collection">
-            <div class="collection__name">BST BÌNH YÊN</div>
-            <div class="collection__info"><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
-        </div>
-        <div class="collection">
-            <img src="./MediaHomePage/BST ngọt làm - dịu êm.png" alt="" class="img__collection">
-            <div class="collection__name">BST NGỌT LÀNH - DỊU ÊM</div>
-            <div class="collection__info"><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
-        </div>
-        <div class="collection">
-            <img src="./MediaHomePage/BST cummer.png" alt="" class="img__collection">
-            <div class="collection__name">SUMMER CHILL CANDLE</div>
-            <div class="collection__info"><a href="../Shop/ShopBst.html">XEM THÊM THÔNG TIN</a></div>
-        </div>
+    <div class="title">
+        <div>DỰ ÁN ĐẶC BIỆT</div>
     </div>
-    <div class="content background">
-        <div class="content__text">SẢN PHẦM THUẦN CHAY 100% - THỦ CÔNG - THÀNH PHẦN TỰ NHIÊN - NGUỒN GỐC RÕ RÀNG</div>
-    </div>
-    <div class="content__img background">
-        <img src="./MediaHomePage/planet-earth 1.png" alt="" class="img__content">
-        <img src="./MediaHomePage/3062350 1.png" alt="" class="img__content">
-        <img src="./MediaHomePage/management 1.png" alt="" class="img__content">
-        <img src="./MediaHomePage/sustainability 1.png" alt="" class="img__content">
-    </div>
-    <div class="content">
-        <div class="content__text">DỰ ÁN ĐẶC BIỆT</div>
-    </div>
-    <div class="allcollection">
-        <div class="collection">
-            <img src="./MediaHomePage/BST bình yên .png" alt="" class="img__collection project">
-            <div class="collection__name">REFILL & RECYCLE CANDLE</div>
-            <div class="collection__info"><a href="#">XEM THÊM THÔNG TIN</a></div>
+    <div class="project">
+        <div class="refill">
+            <img src="../Assets/MediaHomePage/refill.png" alt="" class="imglag">
+            <span>REFILL & RECYCLE CANDLE</span>
+            <div><a href="../Refill&recycle/Refill&Recycle.html">XEM THÊM THÔNG TIN</a></div>
         </div>
-        <div class="collection">
-            <img src="./MediaHomePage/BST bình yên (1).png" alt="" class="img__collection project">
-            <div class="collection__name">WORKSHOP MAKE CANDLE</div>
-            <div class="collection__info"><a href="#">XEM THÊM THÔNG TIN</a></div>
-        </div>
-    <!-- Footer -->
-    <div class="footer">
-        <div class="footer__top">
-            <div class="footer__element">
-                <div class="footer__img">
-                    <img src="./MediaHomePage/Vellichor 1.png" alt="">
-                </div>
-                <div class="footer__text">
-                    Hand-poured and hand-crafted in small batches, using all natural ingredients and therapeutic grade essential oils. Vellichor is a boutique fragrance studio based in Viet Nam, focused on producing high quality soy candles, essential oil blends and home fragrances at a friendly price. All our products are 100% natural with no chemicals or synthetics.
-                </div>
-            </div>
-            <div class="footer__element">
-                <div class="footer__text upper">CONTACT</div>
-                <div class="footer__text">Showroom:    123 Hoa Sứ, P.4, Q.Thủ Đức, TP.Hồ Chí Minh</div>
-                <div class="footer__text">Phone:             +84 789 1011 122</div>
-                <div class="footer__text">Mail:                 vellichor.candle@gmail.com</div>
-                <div class="footer__text upper">SOCIAL MEDIA</div>
-                <div class="footer__contact">
-                    <div class="contact">
-                        <img src="./MediaHomePage/fb.png" alt="">
-                        <img src="./MediaHomePage/instagram.png" alt="">
-                        <img src="./MediaHomePage/linkedin.png" alt="">
-                        <img src="./MediaHomePage/youtube.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="footer__element">
-                <div class="footer__text upper">OTHER</div>
-                <div class="footer__text--parent">
-                    <div class="footer__text--child border">Terms</div>
-                    <div class="footer__text--child border">Privacy Policies</div>
-                    <div class="footer__text--child border">Cookies Policies</div>
-                    <div class="footer__text--child">Help & Support</div>
-                </div>
-                <div class="footer__text upper">PAYMENT</div>
-                <div class="footer__text">Online payment only</div>
-                <div class="footer__payment">
-                    <img src="./MediaHomePage/payment.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div class="footer__bottom">
-            <div class="text__bottom">
-                Copyright © 2021. Vellichor. All rights reserved.
-            </div>
+        <div class="refill">
+            <img src="../Assets/MediaHomePage/makecandel.png" alt="" class="imglag">
+            <span>WORKSHOP MAKE CANDLE</span>
+            <div><a href="../Workshop/Workshop.html">XEM THÊM THÔNG TIN</a></div>
         </div>
     </div>
 </body>
+<footer w3-include-html="../Footer/Footer.html"></footer>
+<script>
+    w3.includeHTML();
+</script>
 </html>

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Velichor</title>
+    <title>Vellichor</title>
     <link rel="stylesheet" href="./Login.css">
     <link rel="stylesheet" href="../CSS/main.css">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
     <link rel="stylesheet" href="../Header/Header2.css">
     <link rel="stylesheet" href="../Footer/Footer.css">
+    <link rel="stylesheet" href="../Header/Header.js" defer>
 </head>
 <header w3-include-html="../Header/Header2.html"></header>
 <body>
@@ -58,15 +59,15 @@
     </div>
     <div class="method__login">
         <div class="contact">
-            <img src="./MediaLogin/image 20.png" alt="" class="contact__logo"> 
+            <img src="../Assets/MediaLogin/image 20.png" alt="" class="contact__logo"> 
             <p>Facebook</p>
         </div>
         <div class="contact">
-            <img src="./MediaLogin/image 21.png" alt="" class="contact__logo">
+            <img src="../Assets/MediaLogin/image 21.png" alt="" class="contact__logo">
             <p>Google</p>
         </div>
         <div class="contact">
-            <img src="./MediaLogin/image 22.png" alt="" class="contact__logo">
+            <img src="../Assets/MediaLogin/image 22.png" alt="" class="contact__logo">
             <p>Apple</p>
         </div>
     </div>
@@ -134,5 +135,16 @@
     function myFunction() {
       window.open("../HomePage/HomePage.html");
     }
+    function myAccount() {
+    // window.open("../Account/Account.html");
+    window.location.href = "../Account/Account.html";
+    }
+    function myCart() {
+    window.location.href = "../Account/Account.html";
+    }
+    function homePage() {
+    window.location.href = "../HomePage/HomePage.html";
+    }
+
     </script>
 </html>

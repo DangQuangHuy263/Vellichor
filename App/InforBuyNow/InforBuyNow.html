@@ -25,12 +25,12 @@
         </div>
         <div class="address__information">
             <div class="headtitle">
-                <img src="./InforBuyNow/map-pin-user-line.png" alt="" class="icon">
+                <img src="../Assets/MediaInforBuyNow/map-pin-user-line.png" alt="" class="icon">
                 <div>ĐỊA CHỈ GIAO HÀNG</div>
             </div>
             <div class="form__infor">
                 <div class="form__row">
-                    <label for="" class="form__label">Họ và tên người nhận:</label>
+                    <label for="" class="form__label">Họ và tên người nhận*:</label>
                     <input type="text" class="form__input">
                 </div>
                 <div class="form__row">
@@ -38,22 +38,22 @@
                     <input type="text" class="form__input">
                 </div>
                 <div class="form__row">
-                    <label for="" class="form__label">Số điện thoại:</label>
+                    <label for="" class="form__label">Số điện thoại*:</label>
                     <input type="text" class="form__input">
                 </div>
                 <div class="form__row">
-                    <label for="" class="form__label">Tỉnh/Thành phố:</label>
+                    <label for="" class="form__label">Tỉnh/Thành phố*:</label>
                     <input type="text" class="form__input">
                 </div>
                 <div class="form__row">
-                    <label for="" class="form__label">Địa chỉ:</label>
+                    <label for="" class="form__label">Địa chỉ*:</label>
                     <input type="text" class="form__input">
                 </div>
             </div>
         </div>
         <div class="payment__method">
             <div class="headtitle">
-                <img src="./InforBuyNow/Wallet_alt.png" alt="" class="icon">
+                <img src="../Assets/MediaInforBuyNow/Wallet_alt.png" alt="" class="icon">
                 <div>PHƯƠNG THỨC THANH TOÁN</div>
             </div>
             <div class="radio">
@@ -64,7 +64,7 @@
         </div>
         <div class="check__order">
             <div class="headtitle">
-                <img src="./InforBuyNow/cart-4.png" alt="" class="icon">
+                <img src="../Assets/MediaInforBuyNow/cart-4.png" alt="" class="icon">
                 <div>KIỂM TRA LẠI ĐƠN HÀNG</div>
             </div>
             <div class="title">
@@ -88,12 +88,41 @@
             <div>TỔNG THANH TOÁN</div>
             <div>(1 sản phẩm)</div>
             <div>300.000<sup>đ</sup></div>
-            <div>Xác nhận thanh toán</div>
+            <div id="btn-open">Xác nhận đặt hàng</div>
         </div>
     </div>
+    <!-- Modal -->
+    <div id="modal-container" >
+        <div id="modal-demo" class="modal">
+            <div class="modal-header">
+                <h3>Vellichor thông báo</h3>
+                <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Cảm ơn bạn đã lựa chọn sản phẩm của chúng tôi, vui lòng vào giỏ hàng để kiểm tra thông tin chi tiết</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
 </body>
 <footer w3-include-html="../Footer/Footer.html"></footer>
 <script>
     w3.includeHTML();
+    // Add cart
+    const btn_open = document.getElementById('btn-open');
+        const btn_close = document.getElementById('btn-close');
+        const modal_container = document.getElementById('modal-container');
+        const modal_demo = document.getElementById('modal-demo');
+        btn_open.addEventListener('click',()=>{
+            modal_container.classList.add('show')
+        })
+        btn_close.addEventListener('click',()=>{
+            modal_container.classList.remove('show')
+        })
+        modal_container.addEventListener('click', (e)=>{
+            if(!modal_demo.contains(e.target)){
+                btn_close.click();
+            }
+        })
 </script>
 </html>

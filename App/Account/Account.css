@@ -9,6 +9,7 @@
     margin-top: 40px;
     margin-bottom: 130px;
 }
+
 .profile{
     display: flex;
     flex-direction: row;
@@ -23,6 +24,11 @@
     margin-bottom: 26px;
     /* justify-content: center; */
     align-items: center;
+    cursor: pointer;
+    padding: 10px 20;
+}
+.infor_line:hover{
+    background: rgba(191, 115, 115, 0.2)
 }
 .infor_line div{
     font-weight: 800;
@@ -74,7 +80,25 @@
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
-    width: 200px;
+    width: 280px;
+}
+.form__input_ten{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 250px;
+}
+.form__input_hoten{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 335px;
+}
+.form__input_email{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    width: 392px;
 }
 .form__radio{
     font-weight: 400;
@@ -178,6 +202,7 @@
     font-weight: 800;
     margin-bottom: 50px;
     margin-left: 100px;
+    color: #753422;
 }
 .voucher__code{
     margin-bottom: 100px;

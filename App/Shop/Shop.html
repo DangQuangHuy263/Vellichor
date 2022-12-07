@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../Footer/Footer.css">
     <link rel="stylesheet" href="./Shop.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <header w3-include-html="../Header/Header2.html"></header>
 <body>
@@ -192,6 +193,21 @@
             <div class="tab__pages" id="tag_page2">2</div>
         </div>
     
+
+        <!-- Modal -->
+        <!-- <div id="modal-container" >
+            <div id="modal-demo" class="modal">
+                <div class="modal-header">
+                    <h3>Modal Title</h3>
+                    <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptates corporis porro illum ex nemo, qui, et similique rerum hic vero maxime pariatur dolorem quo impedit quae sit nihil non?</p>
+                </div>
+            </div>
+        </div> -->
+        <!-- End Modal -->
+    
     <script>
         $('#content1').show()
         $('#content2').hide()
@@ -212,6 +228,25 @@
             $('#tag_page2').addClass('active')
         })
     </script>
+
+<!-- <script>
+    const btn_open = document.getElementById('btn-open');
+    const btn_close = document.getElementById('btn-close');
+    const modal_container = document.getElementById('modal-container');
+    const modal_demo = document.getElementById('modal-demo');
+    btn_open.addEventListener('click',()=>{
+        modal_container.classList.add('show')
+    })
+    btn_close.addEventListener('click',()=>{
+        modal_container.classList.remove('show')
+    })
+    modal_container.addEventListener('click', (e)=>{
+        if(!modal_demo.contains(e.target)){
+            btn_close.click();
+        }
+    })
+</script> -->
+
 </body>
 <footer w3-include-html="../Footer/Footer.html"></footer>
 <script>

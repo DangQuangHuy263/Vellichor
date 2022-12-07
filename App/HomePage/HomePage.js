@@ -21,8 +21,12 @@ function showSlides() {
 
 
 function myAccount() {
-  window.open("../Account/Account.html");
+  // window.open("../Account/Account.html");
+  window.location.href = "../Account/Account.html";
 }
 function myCart() {
-  window.open("../Account/Account.html");
+  window.location.href = "../Account/Account.html";
+}
+function homePage() {
+  window.location.href = "./HomePage.html";
 }

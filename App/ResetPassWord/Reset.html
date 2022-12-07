@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../CSS/main.css">
     <link rel="stylesheet" href="../Header/Header2.css">
     <link rel="stylesheet" href="../Footer/Footer.css">
+    <link rel="stylesheet" href="../Header/Header.js" defer>
     <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 <header w3-include-html="../Header/Header2.html"></header>
@@ -24,12 +25,43 @@
             <input type="text" class="form__input" required>
         </div>
         <div class="form__btn">
-            <button class="form__button" value="">LẤY LẠI MẬT KHẨU</button>
+            <button class="form__button" value="" id="btn-open">LẤY LẠI MẬT KHẨU</button>
         </div>
     </div>
+    <!-- Modal -->
+    <div id="modal-container" >
+        <div id="modal-demo" class="modal">
+            <div class="modal-header">
+                <h3>Vellichor thông báo</h3>
+                <button id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Mật khẩu mới đã được gửi đến email của bạn</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
 </body>
 <footer w3-include-html="../Footer/Footer.html"></footer>
 <script>
     w3.includeHTML();
+    // Add cart
+    const btn_open = document.getElementById('btn-open');
+        const btn_close = document.getElementById('btn-close');
+        const modal_container = document.getElementById('modal-container');
+        const modal_demo = document.getElementById('modal-demo');
+        btn_open.addEventListener('click',()=>{
+            modal_container.classList.add('show')
+        })
+        btn_close.addEventListener('click',()=>{
+            modal_container.classList.remove('show')
+        })
+        modal_container.addEventListener('click', (e)=>{
+            if(!modal_demo.contains(e.target)){
+                btn_close.click();
+            }
+        })
+
 </script>
+
 </html>
